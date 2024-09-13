@@ -1,11 +1,4 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-
-export default function Layout() {
-    <div>
-        <Header/>
-        {children}
-        <Footer/>
-    </div>
-}
+export default function Layout() {}
