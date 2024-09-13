@@ -4,7 +4,7 @@ import LogoImg from '../../assets/logo.svg';
 const Header = () => {
     return (
         <div>
-            fdsfdsf
+            header
         </div>
     );
 };

@@ -10,22 +10,19 @@ const MainPage = () => {
 
     return (
         <div>
-            <Header/>
-            <div className='h-[1000px] bg-red' style={{height: '1000px'}}></div>
-            fsdfds
-            <motion.div
-                initial={{opacity: 0, transform: 'translateX(100px)'}}
-                whileInView={{opacity: 1, transform: 'translateX(0)'}}
-                viewport={{once: false, amount: 0.7, }}
-            >
-                <div>
+            {/*<div className='h-[1000px] bg-red' style={{height: '1000px'}}></div>*/}
+            {/*fsdfds*/}
+            {/*<motion.div*/}
+            {/*    initial={{opacity: 0, transform: 'translateX(100px)'}}*/}
+            {/*    whileInView={{opacity: 1, transform: 'translateX(0)'}}*/}
+            {/*    viewport={{once: false, amount: 0.7, }}*/}
+            {/*>*/}
+            {/*    <div>*/}
 
-                I appear when in view
-                </div>
-            </motion.div>
-            <div className='h-[1000px]' style={{height: '1000px'}}></div>
-
-            <Footer/>
+            {/*    I appear when in view*/}
+            {/*    </div>*/}
+            {/*</motion.div>*/}
+            {/*<div className='h-[1000px]' style={{height: '1000px'}}></div>*/}
         </div>
     );
 };
