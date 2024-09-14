@@ -17,6 +17,11 @@
   }
 }
 
+::selection {
+  background-color: #49B6FF;
+  color: white;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
