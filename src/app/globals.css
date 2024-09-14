@@ -34,3 +34,56 @@ body {
     text-wrap: balance;
   }
 }
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 300;
+  transition: transform 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0px; 
+  left: 85%;
+  width: 0; 
+  height: 2px; 
+  background-color: black; 
+  transform: translateX(-50%) rotate(-20deg); 
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  font-weight: 600; 
+  transform: scale(1.05); 
+
+}
+.nav-link:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0px; 
+  left: 85%;
+  width: 40px; 
+  height: 2px; 
+  background-color: black; 
+  transform: translateX(-50%) rotate(-20deg); 
+}
+
+.nav-link.active {
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0px; 
+  left: 85%;
+  width: 40px; 
+  height: 2px; 
+  background-color: black; 
+  transform: translateX(-50%) rotate(-20deg); 
+}
+

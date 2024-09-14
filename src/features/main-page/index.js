@@ -6,11 +6,11 @@ import AboutUsAccordionSection from "@/features/main-page/components/about-us-ac
 
 const MainPage = () => {
   return (
-    <div>
+    <div className="w-full overflow-hidden mt-[84px]">
       <TitleSection />
       <AboutSection />
       <AboutUsAccordionSection />
-      <div className="h-[1000px]" />
+      <div className="h-[1000px]" id="projects"/>
     </div>
   );
 };
