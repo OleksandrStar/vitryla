@@ -1,27 +1,36 @@
 import React from "react";
 import { donorsList } from "./donors-utils";
+import clsx from "clsx";
 
 const DonorsSection = () => {
   return (
-    <div className="container mt-[40px]">
+    <div className="container mt-[40px] md:px-10 px-3 xl:px-20 ">
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Наші Донори
       </h5>
-      <div className="flex justify-center mt-10">
-        <div className="flex gap-[50px]">
-          {donorsList.map((donor) => {
+      <div className="flex justify-center mt-8 gap-5">
+        <div className="flex md:gap-[50px] gap-[20px] w-full flex-wrap sm:flex-nowrap sm:justify-normal justify-around">
+          {donorsList.map((donor, index) => {
             return (
               <a
+                className={clsx(
+                  "md:w-1/3 md:m-0 md:max-w-[400px] min-w-[180px] max-w-[200px] aspect-square hover:scale-110 transition-all ease-in cursor-pointer",
+                )}
                 href={donor.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 draggable={true}
               >
-                <div className="shadow-md rounded-full p-[30px] w-[320px] h-[320px] bg-white">
-                  <div className="w-full max-w-[300px] max-h-[300px] flex items-center justify-center h-[200px]">
+                <div className="shadow-md rounded-full p-[30px] bg-white h-full flex flex-col items-center justify-center w-full">
+                  <div
+                    className={clsx(
+                      "w-full max-w-[300px] max-h-[300px] flex items-center justify-center h-[200px]",
+                      index === 0 && "p-5",
+                    )}
+                  >
                     {donor.logo}
                   </div>
-                  <div className="text-center text-[30px] border-t border-[49B6FF] p-2">
+                  <div className="text-center lg:text-[30px] text-[20px] border-t border-[49B6FF] p-2">
                     {donor.title}
                   </div>
                 </div>

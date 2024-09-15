@@ -9,15 +9,14 @@ const AboutSection = () => {
     <div id="about" className="pt-[30px]">
       <div className="container overflow-hidden flex gap-5 lg:flex-row flex-col-reverse py-5">
         <div className="lg:w-4/6 w-full flex gap-4">
-          <div className="w-4/6 overflow-hidden ">
+          <div className="lg:w-4/6 w-full overflow-hidden ">
             <Image
               src={AboutBigImg}
               alt="about-img"
-              className="h-[500px] w-full object-cover transform transition-transform duration-500 hover:scale-110 hover:opacity-90"
+              className="lg:h-[500px] md:h-[400px] h-[300px] w-full object-cover transform transition-transform duration-500 hover:scale-110 hover:opacity-90"
             />
           </div>
-
-          <div className="w-2/6 h-4/6 overflow-hidden">
+          <div className="w-2/6 h-4/6 overflow-hidden hidden lg:block">
             <Image
               src={AboutSmallImg}
               alt="about-small-img"
