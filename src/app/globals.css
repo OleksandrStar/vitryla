@@ -87,3 +87,17 @@ body {
   transform: translateX(-50%) rotate(-20deg); 
 }
 
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px; 
+  height: 100vh;
+  background-color: #fff;
+  transition: right 0.5s ease; 
+  padding: 1rem;
+}
+
+.hamburger-menu.active {
+  right: 0; 
+}
