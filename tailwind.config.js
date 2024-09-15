@@ -12,17 +12,17 @@ module.exports = {
     extend: {
       keyframes: {
         slideDown: {
-          from: { height: "0px" },
-          to: { height: "var(--radix-accordion-content-height)" },
+          from: { height: "0px", opacity: 0, paddingBottom: "0px" },
+          to: { height: "var(--radix-accordion-content-height)", opacity: 1 },
         },
         slideUp: {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0px" },
+          from: { height: "var(--radix-accordion-content-height)", opacity: 1 },
+          to: { height: "0px", opacity: 0, paddingBottom: "0px" },
         },
       },
       animation: {
-        slideDown: "slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)",
-        slideUp: "slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+        slideDown: "slideDown 500ms cubic-bezier(0.25, 0.1, 0.25, 1)",
+        slideUp: "slideUp 500ms cubic-bezier(0.25, 0.1, 0.25, 1)",
       },
       colors: {},
     },

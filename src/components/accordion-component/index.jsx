@@ -6,7 +6,7 @@ export const AccordionItem = React.forwardRef(
   ({ children, className, ...props }, forwardedRef) => (
     <Accordion.Item
       className={
-        "focus-within:shadow-mauve12 overflow-hidden first:mt-0 first:rounded-t last:rounded-b focus-within:relative focus-within:z-10 focus-within:shadow-[0_0_0_2px]"
+        "border-b border-[#CAC9C4] focus-within:shadow-none focus-within:shadow-mauve12 overflow-hidden first:mt-0 first:rounded-t last:rounded-b focus-within:relative focus-within:z-10"
       }
       {...props}
       ref={forwardedRef}
@@ -21,16 +21,18 @@ export const AccordionTrigger = React.forwardRef(
     <Accordion.Header className="flex">
       <Accordion.Trigger
         className={
-          "hover:bg-[#49B6FF] group flex h-[45px] flex-1 cursor-pointer items-center justify-between bg-white px-5 text-[15px] outline-none"
+          "group text-black text-[25px] group flex flex-1 cursor-pointer items-center justify-between bg-white px-5 outline-none"
         }
         {...props}
         ref={forwardedRef}
       >
-        {children}
-        <ChevronDownIcon
-          className="text-violet10 ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 group-data-[state=open]:rotate-180"
-          aria-hidden
-        />
+        <div className="py-[25px]">{children}</div>
+        <div className="group-hover:bg-zinc-100 rounded-full p-2">
+          <ChevronDownIcon
+            className=" w-[30px] h-[30px] ease-[cubic-bezier(0.87,_0,_0.13,_1)]  transition-transform duration-300 group-data-[state=open]:rotate-180"
+            aria-hidden
+          />
+        </div>
       </Accordion.Trigger>
     </Accordion.Header>
   ),
@@ -40,12 +42,12 @@ export const AccordionContent = React.forwardRef(
   ({ children, className, ...props }, forwardedRef) => (
     <Accordion.Content
       className={
-        "text-mauve11 bg-mauve2 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-[15px]"
+        "text-[20px] pb-[26px] text-[#6B6A6A] data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
       }
       {...props}
       ref={forwardedRef}
     >
-      <div className="py-[15px] px-5">{children}</div>
+      <div className="px-5">{children}</div>
     </Accordion.Content>
   ),
 );

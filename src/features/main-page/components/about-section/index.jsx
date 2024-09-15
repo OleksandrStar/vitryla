@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <div id="about">
-      <div className="container flex gap-5 lg:flex-row flex-col-reverse py-5">
+    <div id="about" className="pt-[30px]">
+      <div className="container overflow-hidden flex gap-5 lg:flex-row flex-col-reverse py-5">
         <div className="lg:w-4/6 w-full flex gap-4">
           <div className="w-4/6 overflow-hidden ">
             <Image
@@ -26,7 +26,7 @@ const AboutSection = () => {
           </div>
         </div>
 
-        <div className="lg:w-2/6 w-full p-5 lg:p-0">
+        <div className="lg:w-2/6 w-full md:p-0 p-5">
           <h5 className="text-[55px] font-bold">Про Нас</h5>
           <motion.div
             initial={{ opacity: 0, transform: "translateX(100px)" }}
