@@ -8,15 +8,19 @@ import {
 
 const AboutUsAccordionSection = () => {
   return (
-    <div className="container !outline-0">
+    <div className="container !outline-0 mt-[60px]">
       <Accordion.Root
-        className="w-full border-black border rounded"
+        className="w-full"
         type="single"
         collapsible
+        defaultValue="item-1"
       >
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            Створюємо освітні молодіжні простори, щоб надихати молодь навчатися.
+            <div>
+              Створюємо освітні молодіжні простори, щоб надихати молодь
+              навчатися.
+            </div>
           </AccordionTrigger>
           <AccordionContent>
             Наша громадська організація спрямована на створення інноваційних
@@ -34,9 +38,7 @@ const AboutUsAccordionSection = () => {
 
         <AccordionItem value="item-2">
           <AccordionTrigger>
-            Наші проєкти в синергії створять можливості для всебічного розвитку
-            молоді в технічних галузях, розвитку інновацій та підприємництва в
-            Україні.
+            <div>Синергія для розвитку інновацій та підприємництва молоді.</div>
           </AccordionTrigger>
           <AccordionContent>
             Ми активно розробляємо та впроваджуємо проєкти, які допомагають
@@ -55,7 +57,9 @@ const AboutUsAccordionSection = () => {
 
         <AccordionItem value="item-3">
           <AccordionTrigger>
-            Ми хочемо відповідати концепціям нашої держави з розвитку освіти.
+            <div>
+              Ми хочемо відповідати концепціям нашої держави з розвитку освіти.
+            </div>
           </AccordionTrigger>
           <AccordionContent>
             Наші освітні ініціативи повністю узгоджуються з національною

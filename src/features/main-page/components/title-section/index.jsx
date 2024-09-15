@@ -5,7 +5,11 @@ import { motion } from "framer-motion";
 const TitleSection = () => {
   const scrollToSection = () => {
     const section = document.getElementById("about");
-    section.scrollIntoView({ behavior: "smooth" });
+    const yOffset = -80;
+    const yPosition =
+      section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: yPosition, behavior: "smooth" });
   };
 
   return (
@@ -41,13 +45,13 @@ const TitleSection = () => {
       </div>
       <div className="flex justify-center mb-[20px]">
         <button
-          className="rounded-full border-[2px] border-black animate-bounce mx-auto"
+          className="rounded-full border-[2px] border-black animate-bounce mx-auto p-3"
           onClick={() => scrollToSection()}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="34"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
