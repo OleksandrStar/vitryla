@@ -14,9 +14,9 @@ const Footer = () => {
     return (
         <div className="p-8 w-full bg-[#003566] grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 relative">
             <Image src={InfoLogo} width={62} height={62}  alt="info" className="absolute left-[25%]
-            top-[35%]"/>
+            top-[35%] hidden lg:flex"/>
             <Image src={SupportLogo} width={82} height={82} alt="support" className="absolute right-[25%]
-            top-[-35px]"/>
+            top-[-35px] hidden lg:flex"/>
             <div className="flex flex-col gap-4 max-w-[400px] items-center md:items-start">
                 <div className="flex items-center md:items-start gap-2 justify-center">
                     <Image src={AddressLogo} width={24} height={24} alt="address" className="hidden md:flex"/>
