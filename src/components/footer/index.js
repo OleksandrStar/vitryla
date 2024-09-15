@@ -24,11 +24,13 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3">
                 <Image src={PhoneLogo} width={24} height={24} alt="address" className="hidden md:flex"/>
-                <span className="text-white font-bold">+380 (97) 363 32 97</span>
+                <a href="tel:+380973633297" target="_blank" className="text-white font-bold">+380 (97) 363 32 97</a>
                 </div>
                 <div className="flex items-center gap-3">
                 <Image src={MailLogo} width={24} height={24} alt="address" className="hidden md:flex"/>
-                <span className="text-white font-bold">ngo.vitryla@gmail.com</span>
+                <a href="mailto:ngo.vitryla@gmail.com" target="_blank" className="text-white font-bold">
+  ngo.vitryla@gmail.com
+</a>
                 </div>
             </div>
             <div className="flex flex-col gap-4 item  items-center">
