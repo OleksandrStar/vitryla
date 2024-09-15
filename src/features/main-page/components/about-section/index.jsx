@@ -34,7 +34,7 @@ const AboutSection = () => {
             viewport={{ once: true, amount: 0.7 }}
           >
             <p className="font-bold mt-5 text-[20px]">
-              Що відбувається коли двоє людей натхненно розмовляють над
+              Що відбувається, коли двоє людей натхненно розмовляють над
               амбітними ідеями?
             </p>
           </motion.div>

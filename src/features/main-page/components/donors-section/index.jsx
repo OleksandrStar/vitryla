@@ -3,8 +3,10 @@ import { donorsList } from "./donors-utils";
 
 const DonorsSection = () => {
   return (
-    <div className="container">
-      <h5 className="text-[55px] text-center">Наші Донори</h5>
+    <div className="container mt-[40px]">
+      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+        Наші Донори
+      </h5>
       <div className="flex justify-center mt-10">
         <div className="flex gap-[50px]">
           {donorsList.map((donor) => {

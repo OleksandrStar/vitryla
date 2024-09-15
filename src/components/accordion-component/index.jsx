@@ -21,12 +21,12 @@ export const AccordionTrigger = React.forwardRef(
     <Accordion.Header className="flex">
       <Accordion.Trigger
         className={
-          "group text-black text-[25px] group flex flex-1 cursor-pointer items-center justify-between bg-white px-5 outline-none"
+          "group text-black md:text-[25px] text-[16px] group flex flex-1 cursor-pointer items-center justify-between bg-white px-5 outline-none"
         }
         {...props}
         ref={forwardedRef}
       >
-        <div className="py-[25px]">{children}</div>
+        <div className="md:py-[25px] py-[15px]">{children}</div>
         <div className="group-hover:bg-zinc-100 rounded-full p-2">
           <ChevronDownIcon
             className=" w-[30px] h-[30px] ease-[cubic-bezier(0.87,_0,_0.13,_1)]  transition-transform duration-300 group-data-[state=open]:rotate-180"
@@ -42,7 +42,7 @@ export const AccordionContent = React.forwardRef(
   ({ children, className, ...props }, forwardedRef) => (
     <Accordion.Content
       className={
-        "text-[20px] pb-[26px] text-[#6B6A6A] data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
+        "md:text-[20px] text-[14px] pb-[26px] text-[#6B6A6A] data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
       }
       {...props}
       ref={forwardedRef}
