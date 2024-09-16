@@ -5,7 +5,7 @@ import clsx from "clsx";
 
 const PartnersSection = () => {
   return (
-    <div className="container px-10 lg:px-20 mt-[40px]">
+    <div className="container px-10 lg:px-20 mt-[40px]" id="partners">
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Партнери
       </h5>
