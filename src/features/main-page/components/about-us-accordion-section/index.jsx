@@ -8,7 +8,7 @@ import {
 
 const AboutUsAccordionSection = () => {
   return (
-    <div className="container !outline-0 mt-[60px]">
+    <div className="container !outline-0 mt-[20px] md:mt-[60px]">
       <Accordion.Root
         className="w-full"
         type="single"
