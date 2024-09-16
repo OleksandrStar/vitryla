@@ -1,7 +1,7 @@
 import Logo1 from "@/assets/partners/bodro-logo.png";
 import Logo2 from "@/assets/partners/youthplatform.png";
 import Logo3 from "@/assets/partners/novovolynska.png";
-import Logo4 from "@/assets/partners/vitrula.jpg";
+import Logo4 from "@/assets/partners/vitula.png";
 import Logo5 from "@/assets/partners/logo_uk.png";
 
 export const partnersList = [
