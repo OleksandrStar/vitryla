@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const PartnersSection = () => {
   return (
-    <div className="container px-10 lg:px-20 mt-[40px]">
+    <div className="container px-10 lg:px-20 mt-[40px]" id="partners">
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Партнери
       </h5>
@@ -30,7 +30,7 @@ const PartnersSection = () => {
 
 const PartnerItem = ({ partnerData }) => {
   return (
-    <div className="group aspect-square hover:opacity-100 transition-all ease-in cursor-pointer flex flex-col hover:absolute items-center hover:z-50 duration-100 hover:scale-110 bg-white hover:shadow rounded-md">
+    <div className="group aspect-square hover:opacity-100 ease-in cursor-pointer flex flex-col hover:absolute items-center hover:z-50 transition-all duration-300 hover:scale-110 bg-white hover:shadow rounded-md">
       <div className="h-5/6 flex items-center justify-center w-full max-w-100%">
         <Image
           src={partnerData.logo}

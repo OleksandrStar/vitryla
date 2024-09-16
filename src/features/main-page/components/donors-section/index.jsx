@@ -14,7 +14,7 @@ const DonorsSection = () => {
             return (
               <a
                 className={clsx(
-                  "md:w-1/3 md:m-0 md:max-w-[400px] min-w-[180px] max-w-[200px] aspect-square hover:scale-110 transition-all ease-in cursor-pointer",
+                  "md:w-1/3 md:m-0 md:max-w-[400px] min-w-[180px] max-w-[200px] aspect-square duration-300 hover:scale-110 transition-all ease-in cursor-pointer",
                 )}
                 href={donor.link}
                 target="_blank"

@@ -18,7 +18,7 @@ const Footer = () => {
             <Image src={SupportLogo} width={82} height={82} alt="support" className="absolute right-[25%]
             top-[-35px] hidden lg:flex"/>
             <div className="flex flex-col gap-4 max-w-[400px] items-center md:items-start">
-                <div className="flex items-center md:items-start gap-2 justify-center">
+                <div className="flex items-center lg:items-start gap-2 justify-center">
                     <Image src={AddressLogo} width={24} height={24} alt="address" className="hidden md:flex"/>
                 <span className="text-white font-bold text-center  md:text-start">Вул. Кауркова 4А, приміщення Нововолинського ліцею №8</span>
                 </div>

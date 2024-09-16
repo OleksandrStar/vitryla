@@ -6,6 +6,7 @@ import AboutUsAccordionSection from "@/features/main-page/components/about-us-ac
 import ProjectsSection from "@/features/main-page/components/projects";
 import PartnersSection from "@/features/main-page/components/partners-section";
 import DonorsSection from "@/features/main-page/components/donors-section";
+import PoliciesOrganization from "@/features/main-page/components/policiesOrganization/policiesOrganization";
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
       <TitleSection />
       <AboutSection />
       <AboutUsAccordionSection />
+      <PoliciesOrganization/>
       <ProjectsSection />
       <PartnersSection />
       <DonorsSection />
