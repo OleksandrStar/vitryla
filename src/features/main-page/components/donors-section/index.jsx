@@ -13,6 +13,7 @@ const DonorsSection = () => {
           {donorsList.map((donor, index) => {
             return (
               <a
+                key={index}
                 className={clsx(
                   "md:w-1/3 md:max-w-[400px] min-w-[180px] max-w-[180px] sm:min-w-[140px] sm:min-h-[140px] aspect-square duration-300 hover:scale-110 transition-all ease-in cursor-pointer",
                 )}

@@ -10,9 +10,10 @@ const PartnersSection = () => {
         Партнери
       </h5>
       <div className="flex flex-wrap mt-5 md:mt-10 w-full xl:px-[30px]">
-        {partnersList.map((partnerData) => {
+        {partnersList.map((partnerData, index) => {
           return partnerData.href ? (
             <a
+              key={index}
               href={partnerData.href}
               className="md:w-1/3 w-1/2 relative xl:p-[30px]"
               target="_blank"
