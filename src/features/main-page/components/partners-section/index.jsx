@@ -31,7 +31,13 @@ const PartnersSection = () => {
 
 const PartnerItem = ({ partnerData }) => {
   return (
-    <div className="group aspect-square hover:opacity-100 transition-all ease-in cursor-pointer flex flex-col hover:absolute items-center hover:z-50 duration-100 hover:scale-110 bg-white hover:shadow rounded-md">
+    <div
+      className={clsx(
+        "group aspect-square hover:opacity-100 transition-all ease-in cursor-pointer flex flex-col items-center",
+        partnerData.description.length &&
+          "hover:z-50 duration-300 hover:scale-110 bg-white hover:shadow rounded-md hover:absolute",
+      )}
+    >
       <div className="h-5/6 flex items-center justify-center w-full max-w-100%">
         <Image
           src={partnerData.logo}
