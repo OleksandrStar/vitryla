@@ -9,7 +9,7 @@ const PartnersSection = () => {
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Партнери
       </h5>
-      <div className="flex flex-wrap mt-5 md:mt-10 w-full">
+      <div className="flex flex-wrap mt-5 md:mt-10 w-full xl:px-[30px]">
         {partnersList.map((partnerData) => {
           return partnerData.href ? (
             <a
