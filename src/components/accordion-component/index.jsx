@@ -42,7 +42,7 @@ export const AccordionContent = React.forwardRef(
   ({ children, className, ...props }, forwardedRef) => (
     <Accordion.Content
       className={
-        "md:text-[20px] text-[14px] pb-[26px] text-[#6B6A6A] data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
+        "md:text-[16px] text-[14px] pb-[26px] text-[#6B6A6A] data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
       }
       {...props}
       ref={forwardedRef}

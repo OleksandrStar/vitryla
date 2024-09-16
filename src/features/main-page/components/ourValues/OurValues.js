@@ -34,7 +34,7 @@ export default function OurValues() {
           initial={{ opacity: 0, transform: "translateX(100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="md:absolute md:top-[0%] md:right-[10%] lg:top-[3%] lg:right-[17%] xl:top-[3%] xl:right-[21%]"
+          className="md:absolute md:top-[0%] md:right-[10%] lg:top-[3%] lg:right-[17%] xl:top-[0%] xl:right-[21%]"
         >
           <div className="relative w-max">
             <Image

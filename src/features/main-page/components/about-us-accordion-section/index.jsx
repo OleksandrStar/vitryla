@@ -8,7 +8,7 @@ import {
 
 const AboutUsAccordionSection = () => {
   return (
-    <div className="container !outline-0 mt-[20px] md:mt-[60px]">
+    <div className="container !outline-0 mt-[20px] md:mt-[2.2rem] max-w-[1280px]">
       <Accordion.Root
         className="w-full"
         type="single"
@@ -17,12 +17,12 @@ const AboutUsAccordionSection = () => {
       >
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            <div>
+            <div className="text-[18px] font-bold">
               Створюємо освітні молодіжні простори, щоб надихати молодь
               навчатися.
             </div>
           </AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-[18px] font-base">
             Наша громадська організація спрямована на створення інноваційних
             освітніх просторів для молоді, які стимулюють інтерес до навчання та
             саморозвитку. Ми використовуємо сучасні методи навчання, що
@@ -38,9 +38,9 @@ const AboutUsAccordionSection = () => {
 
         <AccordionItem value="item-2">
           <AccordionTrigger>
-            <div>Синергія для розвитку інновацій та підприємництва молоді.</div>
+            <div className="text-[18px] font-bold">Синергія для розвитку інновацій та підприємництва молоді.</div>
           </AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-[18px] font-base">
             Ми активно розробляємо та впроваджуємо проєкти, які допомагають
             молоді отримувати практичні навички у технічних спеціальностях та
             розвивати підприємницьке мислення. Ці проєкти включають навчальні
@@ -57,11 +57,11 @@ const AboutUsAccordionSection = () => {
 
         <AccordionItem value="item-3">
           <AccordionTrigger>
-            <div>
+            <div className="text-[18px] font-bold">
               Ми хочемо відповідати концепціям нашої держави з розвитку освіти.
             </div>
           </AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-[18px] font-base">
             Наші освітні ініціативи повністю узгоджуються з національною
             стратегією розвитку освіти, яка орієнтована на інновації, технології
             та інтеграцію нових методів навчання. Ми прагнемо зробити освіту
