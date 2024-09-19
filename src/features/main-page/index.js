@@ -8,6 +8,8 @@ import PartnersSection from "@/features/main-page/components/partners-section";
 import DonorsSection from "@/features/main-page/components/donors-section";
 import PoliciesOrganization from "@/features/main-page/components/policiesOrganization/policiesOrganization";
 import OurValues from "@/features/main-page/components/ourValues/OurValues";
+import Opportunities from "@/features/main-page/components/opportunities/opportunities";
+import Contacts from "@/features/main-page/components/contacts/contacts";
 
 const MainPage = () => {
   return (
@@ -20,7 +22,8 @@ const MainPage = () => {
       <ProjectsSection />
       <PartnersSection />
       <DonorsSection />
-      <div className="h-[1000px]" id="projects" />
+      <Opportunities />
+      <Contacts />
     </div>
   );
 };

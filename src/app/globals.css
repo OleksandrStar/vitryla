@@ -94,3 +94,11 @@ body {
 .hamburger-menu.active {
   right: 0; 
 }
+
+.mapboxgl-ctrl-attrib-inner{
+  display: none !important;
+}
+
+.mapboxgl-canvas{
+  border-radius: 15px;
+}

@@ -25,7 +25,7 @@ export default function OurValues() {
             <div className="text-white font-bold text-[18px] lg:text-[27px] absolute top-[40%] left-[26%]">
               Людина
             </div>
-            <div className="text-white w-[160px] text-[12px] lg:text-[16px] absolute top-[0%] left-[60%] md:w-[200px]">
+            <div className="text-white w-[150px] text-[12px] lg:text-[16px] absolute top-[0%] left-[60%] md:w-[200px]">
               Поважаємо особисті кордони, любимо та підтримуємо один одного.
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function OurValues() {
             <div className="text-white font-bold text-[18px] lg:text-[22px] absolute top-[45%] left-[24%]">
               Креативність
             </div>
-            <div className="text-white w-[160px] md:w-[200px] text-[14px] md:text-[14px] lg:text-[16px] absolute bottom-[0%] left-[60%] w-[200px]">
+            <div className="text-white w-[150px] md:w-[200px] text-[14px] md:text-[14px] lg:text-[16px] absolute bottom-[0%] left-[60%] w-[200px]">
               Докладаємо максимум зусиль, аби бути найкращими у своїй справі.
             </div>
           </div>
