@@ -1,3 +1,4 @@
+"use client";
 import Map from "@/components/map/map";
 import Image from "next/image";
 import AddressLogo from "@/assets/images/address.svg";
@@ -8,19 +9,19 @@ import PhoneLogo from "@/assets/images/phone.svg";
 import MailLogo from "@/assets/images/mail.svg";
 import FacebookLogo from "@/assets/images/facebookBlue.svg";
 
-export default function Contacts() {
+export default function WorkSpaceContacts() {
   return (
     <div className="my-12 w-full flex justify-center" id="contacts">
       <div className="w-full relative flex justify-center items-center flex-col gap-6 max-w-[1280px] p-4">
         <span className="font-bold text-[36px] md:text-[48px] text-center">
-          Контакти
+          Де нас знайти?
         </span>
         <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-center items-center gap-6">
           <div className="flex flex-col gap-6 ">
             <span className=" text-[16px] md:text-[18px] text-center md:text-start ">
-              Ось усі наші контакти. Пиши всюди чи тільки дзвони, надсилай
-              листа, поштового голуба або прибігай сам. Завжди надамо відповідь
-              швидко.{" "}
+              Ось наші контакти! Пиши нам будь-де, телефонуй, надсилай листа,
+              запускай поштового голуба або завітай особисто — ми завжди
+              відповімо швидко!
             </span>
             <div className="flex flex-col gap-4">
               <div className="flex items-center lg:items-start gap-2 justify-start justify-center md:justify-start">

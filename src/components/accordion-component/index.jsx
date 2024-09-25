@@ -18,7 +18,7 @@ export const AccordionItem = React.forwardRef(
 AccordionItem.displayName = "AccordionItem";
 
 export const AccordionTrigger = React.forwardRef(
-  ({ children, className, ...props }, forwardedRef) => (
+  ({ children, className, icon, ...props }, forwardedRef) => (
     <Accordion.Header className="flex">
       <Accordion.Trigger
         className={
@@ -28,11 +28,17 @@ export const AccordionTrigger = React.forwardRef(
         ref={forwardedRef}
       >
         <div className="md:py-[25px] py-[15px]">{children}</div>
-        <div className="group-hover:bg-zinc-100 rounded-full p-2">
-          <ChevronDownIcon
-            className=" w-[30px] h-[30px] ease-[cubic-bezier(0.87,_0,_0.13,_1)]  transition-transform duration-300 group-data-[state=open]:rotate-180"
-            aria-hidden
-          />
+        <div className=" rounded-full group-hover:shadow transition-all">
+          {!icon ? (
+            <div className="p-2">
+              <ChevronDownIcon
+                className=" w-[30px] h-[30px] ease-[cubic-bezier(0.87,_0,_0.13,_1)]  transition-transform duration-300 group-data-[state=open]:rotate-180"
+                aria-hidden
+              />
+            </div>
+          ) : (
+            <div className="rounded-full overflow-hidden p-1">{icon}</div>
+          )}
         </div>
       </Accordion.Trigger>
     </Accordion.Header>
