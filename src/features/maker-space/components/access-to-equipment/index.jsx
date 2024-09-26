@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import BackgroundImage from "@/assets/making-space/image 5.jpg";
+import BackgroundImage from "@/assets/making-space/image5.jpg";
 import { motion } from "framer-motion";
 
 const AccessToEquipment = () => {
@@ -10,15 +10,14 @@ const AccessToEquipment = () => {
       <div
         id="opportunities"
         className="w-full relative h-[75svh] flex justify-center items-center flex-col gap-8 p-4 mt-14"
+        style={{
+          backgroundImage: `url(${BackgroundImage.src})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
       >
-        <Image
-          src={BackgroundImage}
-          alt="Background"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          className="z-[-1]"
-        />
         <div className="absolute w-full h-full top-0 left-0 bg-[rgba(0,0,0,0.7)]"></div>
         <motion.div
           initial={{ opacity: 0, transform: "translateX(100px)" }}

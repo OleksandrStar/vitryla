@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import BackgroundImage from "@/assets/images/opportunities.jpg";
+import BackgroundImage from "@/assets/making-space/image7.jpg";
 import { motion } from "framer-motion";
 
 const BecomeResident = () => {
