@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import UnicefLogo from "@/assets/donors/UNICEF_Logo.png";
-import EdnannyaLogo from "@/assets/donors/ednannia.png";
+import EdnannyaLogo from "@/assets/donors/ednannia.jpg";
 
 export const donorsList = [
   {

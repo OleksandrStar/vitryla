@@ -6,7 +6,18 @@ import { motion } from "framer-motion";
 
 export default function OurValues() {
   return (
-    <div className="mt-12 w-full px-4 py-12 md:h-[97svh] bg-[#003566] flex justify-center items-center">
+    <div
+      className="mt-12 w-full px-4 py-12 pt-6 md:h-[100svh] bg-[#003566] flex justify-center items-center
+     flex-col gap-6"
+    >
+      <motion.div
+        initial={{ opacity: 0, transform: "translateX(100px)" }}
+        whileInView={{ opacity: 1, transform: "translateX(0)" }}
+        viewport={{ once: true, amount: 0.7 }}
+        className="text-white font-bold text-[36px] md:text-[48px] z-10 text-center"
+      >
+        Наші цінності
+      </motion.div>
       <div className="max-w-[1360px] w-full relative h-full flex flex-col items-center gap-8">
         <motion.div
           initial={{ opacity: 0, transform: "translateX(-100px)" }}
@@ -42,13 +53,13 @@ export default function OurValues() {
               height={310}
               src={SecondCircle}
               alt="second circle"
-              className="w-[260px] h-[260px] lg:w-[310px] lg:h-[310px]"
+              className="w-[240px] h-[240px] lg:w-[310px] lg:h-[310px]"
             />
-            <div className="text-white font-bold text-[18px] lg:text-[22px] absolute top-[45%] left-[24%]">
+            <div className="text-white font-bold text-[16px] lg:text-[22px] absolute top-[45%] left-[24%]">
               Креативність
             </div>
-            <div className="text-white w-[150px] md:w-[200px] text-[14px] md:text-[14px] lg:text-[16px] absolute bottom-[0%] left-[60%] w-[200px]">
-              Докладаємо максимум зусиль, аби бути найкращими у своїй справі.
+            <div className="text-white w-[130px] md:w-[200px] text-[12px] md:text-[14px] lg:text-[16px] absolute bottom-[0%] left-[60%] w-[200px]">
+              Завжди нестандартно підходимо до всіх процесів.
             </div>
           </div>
         </motion.div>
@@ -69,7 +80,7 @@ export default function OurValues() {
             <div className="text-white font-bold text-[18px] lg:text-[22px] absolute top-[45%] left-[23%]">
               Професійність
             </div>
-            <div className="text-white text-[14px] lg:text-[16px] absolute left-[-6%] bottom-[0%] lg:left-[0%] w-[150px] text-end">
+            <div className="text-white text-[12px] lg:text-[16px] absolute left-[-6%] bottom-[0%] lg:left-[0%] w-[150px] text-end">
               Докладаємо максимум зусиль, аби бути найкращими у своїй справі.
             </div>
           </div>

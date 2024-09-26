@@ -24,11 +24,11 @@ const TitleSection = () => {
                 transition={{ duration: 0.3 }}
               >
                 <div className="flex flex-col gap-2">
-                  <div className="md:text-7xl sm:text-6xl text-4xl">
+                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">
                     ВЧИТИСЯ
                   </div>
-                  <div className="md:text-7xl sm:text-6xl text-4xl">НЕ</div>
-                  <div className="md:text-7xl sm:text-6xl text-4xl">ЦІКАВО</div>
+                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">НЕ</div>
+                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">ЦІКАВО</div>
                 </div>
               </motion.div>
 
@@ -37,7 +37,7 @@ const TitleSection = () => {
                 animate={{ opacity: 1, transform: "translateX(0)" }}
                 transition={{ delay: 0.5, duration: 0.3 }}
               >
-                <div className="text-right mt-5">якщо не знаєш навіщо</div>
+                <div className="text-right mt-5 text-2xl">якщо не знаєш навіщо</div>
               </motion.div>
             </div>
           </div>

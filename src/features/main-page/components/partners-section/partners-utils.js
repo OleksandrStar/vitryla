@@ -1,3 +1,4 @@
+import VMK from "@/assets/partners/vmk.jpg";
 import Logo1 from "@/assets/partners/bodro-logo.png";
 import Logo2 from "@/assets/partners/youthplatform.png";
 import Logo3 from "@/assets/partners/novovolynska.png";
@@ -8,7 +9,7 @@ export const partnersList = [
   {
     title: "ВМК-Україна",
     href: "http://vmkukraine.com/",
-    logo: Logo1,
+    logo: VMK,
     description:
       "Бізнес, який найпершим підтримав ГО, коли у нас навіть не було кінцевої ідеї чим ми будемо займатися. Із вогником в очах ми звернулися з проханням надати нам трошки столів та 2 шафи для зберігання майбутніх речей.",
   },

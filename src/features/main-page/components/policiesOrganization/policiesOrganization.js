@@ -44,7 +44,7 @@ export default function PoliciesOrganization() {
             height={36}
             alt="policiesOrganization"
           />
-          <span>Політика щодо протидії сексуальній експлуатації та нарузі</span>
+          <span>Щодо протидії сексуальній експлуатації та нарузі</span>
         </a>
         <a
           className="text-xs md:text-base flex flex-col gap-4 text-center items-center transition-all duration-300 hover:scale-105"
@@ -57,7 +57,7 @@ export default function PoliciesOrganization() {
             height={36}
             alt="policiesOrganization"
           />
-          <span>Політика щодо захисту дорослих та дітей</span>
+          <span>Щодо захисту дорослих та дітей</span>
         </a>
         <a
           href="https://docs.google.com/document/d/1odbVy1qONuIth233j0aN0D4nQp9lhSZRDM_GudmBO4Q/edit?usp=sharing"
@@ -70,7 +70,7 @@ export default function PoliciesOrganization() {
             height={36}
             alt="policiesOrganization"
           />
-          <span>Політика закупівель</span>
+          <span>Щодо закупівель</span>
         </a>
         <a
           href="https://docs.google.com/document/d/1aWywzpWgwb58gOBt_oqRIgxN-DveSLtqMT5HbT53SbQ/edit?usp=sharing"
@@ -83,7 +83,7 @@ export default function PoliciesOrganization() {
             height={36}
             alt="policiesOrganization"
           />
-          <span>Політика протидії корупції</span>
+          <span>Щодо протидії корупції</span>
         </a>
       </motion.div>
     </div>

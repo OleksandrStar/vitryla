@@ -39,12 +39,12 @@ const Header = () => {
           <Image
             src={LogoImg}
             alt="logo"
-            width={170}
-            height={80}
+            width={200}
+            height={100}
             className="h-auto cursor-pointer"
           />
         </Link>
-        <div className="items-center gap-6 text-black md:text-sm xl:text-md hidden lg:flex">
+        <div className="items-center gap-6 text-black md:text-sm xl:text-lg hidden lg:flex">
           <a
             href="#about"
             onClick={(e) => handleScroll(e, "about")}

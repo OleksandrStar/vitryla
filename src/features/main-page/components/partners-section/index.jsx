@@ -15,7 +15,7 @@ const PartnersSection = () => {
             <a
               key={index}
               href={partnerData.href}
-              className="md:w-1/3 w-1/2 relative xl:p-[30px]"
+              className="md:w-1/4 w-1/2 relative xl:p-[30px]"
               target="_blank"
               rel="noopener noreferrer"
             >

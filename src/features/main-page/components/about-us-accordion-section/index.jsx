@@ -13,7 +13,7 @@ const AboutUsAccordionSection = () => {
         className="w-full"
         type="single"
         collapsible
-        defaultValue="item-1"
+        defaultValue=""
       >
         <AccordionItem value="item-1">
           <AccordionTrigger>
