@@ -1,8 +1,8 @@
 import React from "react";
-import AboutBigImg from "@/assets/images/AboutSection/about-img.JPG";
-import AboutBigImg2 from "@/assets/images/AboutSection/about-img-2.jpg";
-import AboutBigImg3 from "@/assets/images/AboutSection/about-img-3.jpg";
-import AboutBigImg4 from "@/assets/images/AboutSection/about-img-4.jpg";
+import AboutBigImg from "@/assets/images/aboutSection/about-img.JPG";
+import AboutBigImg2 from "@/assets/images/aboutSection/about-img-2.jpg";
+import AboutBigImg3 from "@/assets/images/aboutSection/about-img-3.jpg";
+import AboutBigImg4 from "@/assets/images/aboutSection/about-img-4.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
@@ -36,26 +36,28 @@ const settings = {
   ],
 };
 
-const imagesList = [AboutBigImg,AboutBigImg2,AboutBigImg3,AboutBigImg4]
+const imagesList = [AboutBigImg, AboutBigImg2, AboutBigImg3, AboutBigImg4];
 
 const AboutSection = () => {
   return (
     <div id="about" className="pt-[30px] w-full flex justify-center">
-      <div className="w-full max-w-[1260px] overflow-hidden flex gap-5  flex-col-reverse py-5
-      lg:grid lg:grid-cols-[2fr_1fr]">
-                <div className=" lg:h-[500px] md:h-[400px] h-[300px] w-[calc(100%)] overflow-hidden">
-            <Slider {...settings}>
+      <div
+        className="w-full max-w-[1260px] overflow-hidden flex gap-5  flex-col-reverse py-5
+      lg:grid lg:grid-cols-[2fr_1fr]"
+      >
+        <div className=" lg:h-[500px] md:h-[400px] h-[300px] w-[calc(100%)] overflow-hidden">
+          <Slider {...settings}>
             {imagesList.map((img, index) => (
-                            <div key={index} className="h-full md:w-[400px] w-[250px]">
+              <div key={index} className="h-full md:w-[400px] w-[250px]">
                 <Image
                   src={img}
                   alt={`img-${index}`}
                   className="lg:h-[500px] md:h-[400px] h-[300px] w-full object-cover"
                 />
-                </div>
+              </div>
             ))}
           </Slider>
-          </div>
+        </div>
 
         <div className=" w-full md:p-0 p-5">
           <h5 className="text-[55px] font-bold">Про Нас</h5>
