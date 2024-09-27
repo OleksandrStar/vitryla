@@ -73,13 +73,6 @@ const Header = () => {
           >
             Можливості
           </a>
-          <a
-            href="#contacts"
-            onClick={(e) => handleScroll(e, "contacts")}
-            className={`nav-link ${activeAnchor === "contacts" ? "active" : ""}`}
-          >
-            Контакти
-          </a>
         </div>
         <div className="flex lg:hidden" onClick={toggleHamburger}>
           <Image src={HamburgerLogo} alt="hamburger" width={32} height={32} />
@@ -120,13 +113,6 @@ const Header = () => {
               className={`nav-link ${activeAnchor === "opportunities" ? "active" : ""}`}
             >
               Можливості
-            </a>
-            <a
-              href="#contacts"
-              onClick={(e) => handleScroll(e, "contacts")}
-              className={`nav-link ${activeAnchor === "contacts" ? "active" : ""}`}
-            >
-              Контакти
             </a>
           </div>
         </div>

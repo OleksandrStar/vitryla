@@ -1,31 +1,63 @@
 import React from "react";
-import AboutBigImg from "@/assets/images/about-img.JPG";
-import AboutSmallImg from "@/assets/images/about-small-img.jpg";
+import AboutBigImg from "@/assets/images/AboutSection/about-img.JPG";
+import AboutBigImg2 from "@/assets/images/AboutSection/about-img-2.jpg";
+import AboutBigImg3 from "@/assets/images/AboutSection/about-img-3.jpg";
+import AboutBigImg4 from "@/assets/images/AboutSection/about-img-4.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const settings = {
+  infinite: true,
+  speed: 1700,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  className: "lg:h-[470px] md:h-[370px] h-[270px] ",
+  autoplay: true,
+  autoplaySpeed: 2000,
+  fade: false,
+  arrows: false,
+  cssEase: "ease-in-out",
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
+const imagesList = [AboutBigImg,AboutBigImg2,AboutBigImg3,AboutBigImg4]
 
 const AboutSection = () => {
   return (
-    <div id="about" className="pt-[30px]">
-      <div className="container overflow-hidden flex gap-5 lg:flex-row flex-col-reverse py-5">
-        <div className="lg:w-4/6 w-full flex gap-4">
-          <div className="lg:w-4/6 w-full overflow-hidden ">
-            <Image
-              src={AboutBigImg}
-              alt="about-img"
-              className="lg:h-[500px] md:h-[400px] h-[300px] w-full object-cover transform transition-transform duration-500 hover:scale-110 hover:opacity-90"
-            />
+    <div id="about" className="pt-[30px] w-full flex justify-center">
+      <div className="w-full max-w-[1260px] overflow-hidden flex gap-5  flex-col-reverse py-5
+      lg:grid lg:grid-cols-[2fr_1fr]">
+                <div className=" lg:h-[500px] md:h-[400px] h-[300px] w-[calc(100%)] overflow-hidden">
+            <Slider {...settings}>
+            {imagesList.map((img, index) => (
+                            <div key={index} className="h-full md:w-[400px] w-[250px]">
+                <Image
+                  src={img}
+                  alt={`img-${index}`}
+                  className="lg:h-[500px] md:h-[400px] h-[300px] w-full object-cover"
+                />
+                </div>
+            ))}
+          </Slider>
           </div>
-          <div className="w-2/6 h-4/6 overflow-hidden hidden lg:block">
-            <Image
-              src={AboutSmallImg}
-              alt="about-small-img"
-              className="h-[300px] w-full object-cover mt-5 transform transition-transform duration-500 hover:scale-110 hover:opacity-90"
-            />
-          </div>
-        </div>
 
-        <div className="lg:w-2/6 w-full md:p-0 p-5">
+        <div className=" w-full md:p-0 p-5">
           <h5 className="text-[55px] font-bold">Про Нас</h5>
           <motion.div
             initial={{ opacity: 0, transform: "translateX(100px)" }}
