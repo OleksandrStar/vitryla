@@ -101,7 +101,7 @@ export default function Contacts() {
             </div>
           </div>
           <div className="rounded">
-            <Map />
+            <Map center={[24.179556, 50.724611]} />
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ const MainPage = () => {
       <PartnersSection />
       <DonorsSection />
       <Opportunities />
-      <Contacts />
+      {/* <Contacts /> */}
     </div>
   );
 };
