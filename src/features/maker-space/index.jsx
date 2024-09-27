@@ -6,12 +6,14 @@ import MakersCommunity from "@/features/maker-space/components/makers-community"
 import AccessToEquipment from "@/features/maker-space/components/access-to-equipment";
 import BecomeResident from "@/features/maker-space/components/become-resident";
 import WorkSpaceContacts from "@/features/maker-space/components/work-space-contacts";
+import ResidencyComponent from "@/features/maker-space/components/residency-component";
 
 const MakerSpace = () => {
   return (
     <div>
       <div className="h-[1000px]" />
       <AboutMakerSpace />
+      <ResidencyComponent />
       <AccessToEquipment />
       <MakersCommunity />
       <CoursesMakerSpace />
