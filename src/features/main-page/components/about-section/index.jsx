@@ -1,8 +1,8 @@
 import React from "react";
-import AboutBigImg from "@/assets/images/aboutSection/about-img.jpg";
-import AboutBigImg2 from "@/assets/images/aboutSection/about-img-2.jpg";
-import AboutBigImg3 from "@/assets/images/aboutSection/about-img-3.jpg";
-import AboutBigImg4 from "@/assets/images/aboutSection/about-img-4.jpg";
+import AboutBigImg from "@/assets/images/about-section/about-img.jpg";
+import AboutBigImg2 from "@/assets/images/about-section/about-img-2.jpg";
+import AboutBigImg3 from "@/assets/images/about-section/about-img-3.jpg";
+import AboutBigImg4 from "@/assets/images/about-section/about-img-4.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
