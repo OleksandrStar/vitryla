@@ -4,11 +4,14 @@ import Image from "next/image";
 import WoodIcon from "@/assets/making-space/icon/wood.svg";
 import SpaceIcon from "@/assets/making-space/icon/space.svg";
 import CoursesIcon from "@/assets/making-space/icon/coueses.svg";
-import MakerSpaceLogo from "@/assets/making-space/makerSpaceLogo.svg";
+import MakerSpaceLogo from "@/assets/images/MakingSpace.svg";
 
 const AboutMakerSpace = () => {
   return (
-    <div className="lg:container lg:px-0 px-10">
+    <div
+      id="aboutProject-MakerSpace"
+      className="lg:container lg:px-0 px-10 mt-5"
+    >
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Про проєкт
       </h5>
@@ -46,7 +49,7 @@ const AboutMakerSpace = () => {
                 мейкерської спільноти.
               </p>
               <Image
-                className="float-right rounded-full overflow-hidden h-[200px] w-[200px] lg:block hidden"
+                className="float-right rounded-full overflow-hidden h-[200px] w-auto lg:block hidden"
                 src={MakerSpaceLogo}
                 alt={"MakerSpaceLogo"}
                 width={200}

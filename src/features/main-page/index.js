@@ -9,7 +9,6 @@ import DonorsSection from "@/features/main-page/components/donors-section";
 import PoliciesOrganization from "@/features/main-page/components/policiesOrganization/policiesOrganization";
 import OurValues from "@/features/main-page/components/ourValues/OurValues";
 import Opportunities from "@/features/main-page/components/opportunities/opportunities";
-import Contacts from "@/features/main-page/components/contacts/contacts";
 
 const MainPage = () => {
   return (
@@ -23,7 +22,6 @@ const MainPage = () => {
       <PartnersSection />
       <DonorsSection />
       <Opportunities />
-      {/* <Contacts /> */}
     </div>
   );
 };

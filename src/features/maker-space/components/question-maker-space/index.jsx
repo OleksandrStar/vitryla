@@ -8,7 +8,10 @@ import {
 
 const QuestionMakerSpace = () => {
   return (
-    <div className="container !outline-0 mt-[20px] md:my-[2.2rem] max-w-[1280px]">
+    <div
+      id={"questions-MakerSpace"}
+      className="container !outline-0 mt-[20px] md:my-[2.2rem] max-w-[1280px]"
+    >
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Часті запитання
       </h5>

@@ -42,7 +42,7 @@ const settings = {
 
 const MakersCommunity = () => {
   return (
-    <div className="mt-[20px] md:mt-[2.2rem]">
+    <div id={"makersCommunity-MakerSpace"} className="mt-[20px] md:mt-[2.2rem]">
       <div className="container text-center">
         <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
           Спільнота мейкерів

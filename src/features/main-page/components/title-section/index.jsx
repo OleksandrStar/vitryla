@@ -27,8 +27,12 @@ const TitleSection = () => {
                   <div className="md:text-[5.2rem] sm:text-6xl text-4xl">
                     ВЧИТИСЯ
                   </div>
-                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">НЕ</div>
-                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">ЦІКАВО</div>
+                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">
+                    НЕ
+                  </div>
+                  <div className="md:text-[5.2rem] sm:text-6xl text-4xl">
+                    ЦІКАВО
+                  </div>
                 </div>
               </motion.div>
 
@@ -37,7 +41,9 @@ const TitleSection = () => {
                 animate={{ opacity: 1, transform: "translateX(0)" }}
                 transition={{ delay: 0.5, duration: 0.3 }}
               >
-                <div className="text-right mt-5 text-2xl">якщо не знаєш навіщо</div>
+                <div className="text-right mt-5 text-2xl">
+                  якщо не знаєш навіщо
+                </div>
               </motion.div>
             </div>
           </div>
@@ -55,9 +61,9 @@ const TitleSection = () => {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />

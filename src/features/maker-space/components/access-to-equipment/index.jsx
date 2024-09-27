@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 const AccessToEquipment = () => {
   return (
-    <div>
+    <div id={"equipment-MakerSpace"}>
       <div
         id="opportunities"
-        className="w-full relative h-[75svh] flex justify-center items-center flex-col gap-8 p-4 mt-14"
+        className="w-full relative h-[75svh] flex justify-center items-center flex-col gap-8 p-4"
         style={{
           backgroundImage: `url(${BackgroundImage.src})`,
           backgroundSize: "cover",

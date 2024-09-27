@@ -1,7 +1,5 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
 import Head from "next/head";
 import Favicon from "@/assets/logo.svg";
 
@@ -20,13 +18,16 @@ const eUkraineRegularSans = localFont({
 export const metadata = {
   title: "Вітрила",
   description: 'Молодіжний центр "Вітрила"',
+  icons: {
+    icon: Favicon.src,
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        {/*<link rel="icon" href="./favicon.svg" type="image/svg+xml" />*/}
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </Head>

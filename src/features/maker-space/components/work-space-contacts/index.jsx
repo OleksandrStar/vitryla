@@ -11,7 +11,7 @@ import FacebookLogo from "@/assets/images/facebookBlue.svg";
 
 export default function WorkSpaceContacts() {
   return (
-    <div className="my-12 w-full flex justify-center" id="contacts">
+    <div className="my-12 w-full flex justify-center" id="contacts-MakerSpace">
       <div className="w-full relative flex justify-center items-center flex-col gap-6 max-w-[1280px] p-4">
         <span className="font-bold text-[36px] md:text-[48px] text-center">
           Де нас знайти?

@@ -7,13 +7,16 @@ import AccessToEquipment from "@/features/maker-space/components/access-to-equip
 import BecomeResident from "@/features/maker-space/components/become-resident";
 import WorkSpaceContacts from "@/features/maker-space/components/work-space-contacts";
 import ResidencyComponent from "@/features/maker-space/components/residency-component";
+import ResidentCard from "@/features/maker-space/components/resident-card";
+import HeadBanner from "@/features/maker-space/components/head-banner";
 
 const MakerSpace = () => {
   return (
     <div>
-      <div className="h-[1000px]" />
+      <HeadBanner />
       <AboutMakerSpace />
       <ResidencyComponent />
+      <ResidentCard />
       <AccessToEquipment />
       <MakersCommunity />
       <CoursesMakerSpace />

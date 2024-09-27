@@ -14,7 +14,10 @@ const MakerSpaceIcon = (
 
 const CoursesMakerSpace = () => {
   return (
-    <div className="container !outline-0 mt-[20px] md:mt-[2.2rem] max-w-[1280px]">
+    <div
+      id={"courses-MakerSpace"}
+      className="container !outline-0 mt-[20px] md:mt-[2.2rem] max-w-[1280px]"
+    >
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Наші курси
       </h5>
