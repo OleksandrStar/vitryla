@@ -6,11 +6,9 @@ import { motion } from "framer-motion";
 const BecomeResident = () => {
   return (
     <div
-      className="w-full relative h-[60svh] md:bg-fixed bg-scroll flex justify-center items-center flex-col gap-14 p-4 overflow-hidden"
+      className="w-full relative md:bg-center h-[60svh] md:bg-cover bg-auto md:bg-fixed bg-scroll flex justify-center items-center flex-col gap-14 p-4 overflow-hidden"
       style={{
         backgroundImage: `url(${BackgroundImage.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
