@@ -17,7 +17,7 @@ const eUkraineRegularSans = localFont({
 
 export const metadata = {
   title: "Вітрила",
-  description: 'Молодіжний центр "Вітрила"',
+  description: "Громадська організація «Молодіжні вітрила»",
   icons: {
     icon: Favicon.src,
   },

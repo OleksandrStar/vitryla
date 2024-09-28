@@ -25,8 +25,11 @@ const DonorsSection = () => {
                 <div className="shadow-md rounded-full p-[30px] bg-white h-full flex flex-col items-center justify-center w-full">
                   <div
                     className={clsx(
-                      "w-full max-w-[300px] max-h-[300px] flex items-center justify-center h-[200px]",
+                      "h-[200px] max-w-[300px] max-h-[300px] flex items-center justify-center",
                       index === 0 && "md:p-5 sm:p-3 p-3",
+                      index === donorsList.length - 1
+                        ? "w-[300px] h-[200px]"
+                        : " w-full",
                     )}
                   >
                     {donor.logo}

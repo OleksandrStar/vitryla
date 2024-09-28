@@ -12,7 +12,7 @@ const AboutMakerSpace = () => {
       id="aboutProject-MakerSpace"
       className="lg:container lg:px-0 px-10 mt-5"
     >
-      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+      <h5 className="text-[30px] md:text-[35px] text-center lg:text-[55px]">
         Про проєкт
       </h5>
       <div className="flex">

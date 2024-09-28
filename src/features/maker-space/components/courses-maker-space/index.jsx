@@ -23,8 +23,8 @@ const CoursesMakerSpace = () => {
       </h5>
       <Accordion.Root className="w-full" type="single" collapsible>
         <AccordionItem value="value-1">
-          <AccordionTrigger icon={MakerSpaceIcon}>
-            Курс «Безпечний майстер»
+          <AccordionTrigger icon={MakerSpaceIcon} className="font-bold">
+            <div className={"font-bold"}>Курс «Безпечний майстер»</div>
           </AccordionTrigger>
           <AccordionContent className="text-[18px] font-base ">
             <div className="leading-9">
@@ -69,8 +69,8 @@ const CoursesMakerSpace = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger icon={MakerSpaceIcon}>
-            Курс «Змайструй МРІЮ»
+          <AccordionTrigger icon={MakerSpaceIcon} className="font-bold">
+            <div className={"font-bold"}>Курс «Змайструй МРІЮ»</div>
           </AccordionTrigger>
           <AccordionContent className="text-[18px] font-base">
             <div className="leading-9">
@@ -104,7 +104,7 @@ const CoursesMakerSpace = () => {
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger icon={MakerSpaceIcon}>
-            Курс «Мейкер Junior»
+            <div className={"font-bold"}>Курс «Мейкер Junior»</div>
           </AccordionTrigger>
           <AccordionContent className="text-[18px] font-base">
             <div className="leading-9">

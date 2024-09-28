@@ -11,7 +11,7 @@ const ResidencyComponent = () => {
       className="md:flex my-5 p-4 max-w-[1000px] mx-auto lg:px-0 px-10"
     >
       <div className="md:w-1/2 pr-5">
-        <div className="text-[25px] md:text-[35px] lg:text-[55px] md:text-left text-center">
+        <div className="text-[30px] md:text-[35px] lg:text-[55px] md:text-left text-center">
           Резидентство
         </div>
         <motion.div
@@ -32,7 +32,8 @@ const ResidencyComponent = () => {
         <motion.div
           initial={{ opacity: 0, transform: "translateX(100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
-          viewport={{ once: true, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="h-full"
         >
           <Image
             src={ResidencyImg}

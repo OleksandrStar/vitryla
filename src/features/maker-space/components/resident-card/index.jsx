@@ -12,7 +12,7 @@ const ResidentCard = () => {
   return (
     <div className="bg-[#003566] text-white pt-5 lg:px-0 px-10 pb-10">
       <div className="mx-auto max-w-[1000px] !outline-0 mt-[20px] md:mt-[2.2rem]">
-        <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+        <h5 className="text-[30px] md:text-[40px] text-center lg:text-[55px]">
           Що дає карта резидента?
         </h5>
         <p className="md:my-10 my-5 italic text-[14px] text-center max-w-[400px] mx-auto leading-8">
