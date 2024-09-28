@@ -6,13 +6,10 @@ import { motion } from "framer-motion";
 const BecomeResident = () => {
   return (
     <div
-      className="w-full relative h-[60svh] flex justify-center items-center flex-col gap-14 p-4"
+      className="w-full relative md:bg-center h-[60svh] md:bg-cover bg-auto md:bg-fixed bg-scroll flex justify-center items-center flex-col gap-14 p-4 overflow-hidden"
       style={{
         backgroundImage: `url(${BackgroundImage.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="absolute w-full h-full top-0 left-0 bg-[rgba(0,0,0,0.7)]"></div>
@@ -26,9 +23,9 @@ const BecomeResident = () => {
         свої проєкти й діляться досвідом у роботі з деревом.
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, transform: "translateY(100px)" }}
+        initial={{ opacity: 0, transform: "translateY(50px)" }}
         whileInView={{ opacity: 1, transform: "translateY(0)" }}
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.1 }}
         className="grid items-center md:gap-10 z-10 text-white max-w-[870px] px-4"
       >
         <a

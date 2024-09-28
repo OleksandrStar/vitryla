@@ -1,17 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import UnicefLogo from "@/assets/donors/UNICEF_Logo.png";
-import EdnannyaLogo from "@/assets/donors/ednannia.jpg";
 import JeunesseLogo from "@/assets/donors/COE-logo-and-Youth-Jeunesse-Quadri.png";
 import Pramuemo from "@/assets/donors/Pramuemo.png";
 import Unfpa from "@/assets/donors/unfpa.png";
+import EdnannyaLogo from "@/assets/donors/ednannia.png";
 
 export const donorsList = [
   {
     title: "Tolocar",
     link: "https://tolocar.org/ua/",
     logo: (
-      <svg viewBox="0 0 114 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        viewBox="0 0 114 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        width={200}
+        height={100}
+      >
         <path
           d="M10.7542 7.69653H0V22.3522H2.00324V61.5745H8.751V22.3522H10.7542V7.69653Z"
           fill="#009664"
@@ -54,7 +60,7 @@ export const donorsList = [
     title: "ІСАР",
     link: "https://ednannia.ua/",
     logo: (
-      <Image src={EdnannyaLogo} alt={"ednannya"} height={200} width={200} />
+      <Image src={EdnannyaLogo} alt={"ednannya"} height={200} width={250} />
     ),
   },
   {

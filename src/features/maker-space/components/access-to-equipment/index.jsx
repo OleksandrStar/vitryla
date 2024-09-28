@@ -6,16 +6,19 @@ import { motion } from "framer-motion";
 
 const AccessToEquipment = () => {
   return (
-    <div id={"equipment-MakerSpace"}>
+    <div
+      id={"equipment-MakerSpace"}
+      className="w-screen overflow-hidden md:h-full h-[700px]"
+    >
       <div
         id="opportunities"
-        className="w-full relative h-[75svh] flex justify-center items-center flex-col gap-8 p-4"
+        className="w-full relative flex md:bg-fixed bg-scroll justify-center items-center flex-col md:gap-8 gap-7 p-4 md:h-[75svh] h-[700px]"
         style={{
           backgroundImage: `url(${BackgroundImage.src})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
+          // backgroundAttachment: "fixed",
         }}
       >
         <div className="absolute w-full h-full top-0 left-0 bg-[rgba(0,0,0,0.7)]"></div>
@@ -23,7 +26,7 @@ const AccessToEquipment = () => {
           initial={{ opacity: 0, transform: "translateX(100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-white font-bold text-[36px] md:text-[48px] z-10 text-center"
+          className="text-white font-bold text-[34px] md:text-[54px] z-10 text-center"
         >
           Доступ до обладнання
         </motion.div>
