@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Head from "next/head";
-import Favicon from "@/assets/logo.svg";
+import Favicon from "@/assets/logo.jpg";
 
 const eUkraineMediumSans = localFont({
   src: "./fonts/e-Ukraine-Medium.ttf",

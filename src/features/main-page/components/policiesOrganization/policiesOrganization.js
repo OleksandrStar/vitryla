@@ -9,13 +9,9 @@ import { motion } from "framer-motion";
 export default function PoliciesOrganization() {
   return (
     <div
-      className="w-full relative h-[75svh] flex justify-center items-center flex-col gap-14 p-4"
+      className="w-full relative h-[75svh] flex justify-center items-center flex-col gap-14 p-4 bg-cover bg-center bg-no-repeat bg-scroll md:bg-fixed"
       style={{
         backgroundImage: `url(${BackgroundImage.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="absolute w-full h-full top-0 left-0 bg-[rgba(0,0,0,0.7)]"></div>

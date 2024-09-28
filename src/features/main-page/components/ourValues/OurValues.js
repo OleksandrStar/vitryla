@@ -58,7 +58,7 @@ export default function OurValues() {
             <div className="text-white font-bold text-[16px] lg:text-[22px] absolute top-[45%] left-[24%]">
               Креативність
             </div>
-            <div className="text-white w-[130px] md:w-[200px] text-[12px] md:text-[14px] lg:text-[16px] absolute bottom-[0%] left-[60%] w-[200px]">
+            <div className="text-white w-[130px] md:w-[200px] text-[12px] md:text-[14px] lg:text-[16px] absolute bottom-[0%] left-[60%]">
               Завжди нестандартно підходимо до всіх процесів.
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MakerSpaceImage from "@/assets/images/MakingSpace.svg";
-import RobotsImage from "@/assets/images/Robots.svg";
+import RobotsImage from "@/assets/images/Robots.png";
 import Link from "next/link";
 
 const ProjectsSection = () => {
@@ -62,7 +62,7 @@ const ProjectsSection = () => {
                     <Image
                       src={item.image}
                       alt={item.name}
-                      className="lg:h-[320px] md:h-[300px] h-[250px]"
+                      className="lg:h-[320px] md:h-[300px] h-[250px] object-cover"
                     />
                   </div>
                   {item.name && (
