@@ -23,7 +23,7 @@ const BecomeResident = () => {
         свої проєкти й діляться досвідом у роботі з деревом.
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, transform: "translateY(100px)" }}
+        initial={{ opacity: 0, transform: "translateY(60px)" }}
         whileInView={{ opacity: 1, transform: "translateY(0)" }}
         viewport={{ once: true, amount: 0.3 }}
         className="grid items-center md:gap-10 z-10 text-white max-w-[870px] px-4"
