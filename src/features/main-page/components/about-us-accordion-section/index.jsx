@@ -38,7 +38,7 @@ const AboutUsAccordionSection = () => {
 
         <AccordionItem value="item-2">
           <AccordionTrigger>
-            <div className="text-[18px] font-bold">Синергія для розвитку інновацій та підприємництва молоді.</div>
+            <div className="text-[18px] font-bold">Синергія для розвитку інновацій та підприємництва серед молоді.</div>
           </AccordionTrigger>
           <AccordionContent className="text-[18px] font-base">
             Ми активно розробляємо та впроваджуємо проєкти, які допомагають

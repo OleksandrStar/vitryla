@@ -5,7 +5,7 @@ export default function Opportunities() {
   return (
     <div
       id="opportunities"
-      className="w-full relative h-[75vh] flex justify-center items-center flex-col gap-8 p-4 mt-14 bg-cover bg-center bg-no-repeat bg-scroll md:bg-fixed"
+      className="w-full relative h-[75vh] flex justify-center items-center flex-col gap-8 p-4 mt-14 bg-cover bg-top bg-no-repeat bg-scroll md:bg-fixed"
       style={{
         backgroundImage: `url(${BackgroundImage.src})`,
       }}

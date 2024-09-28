@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import UnicefLogo from "@/assets/donors/UNICEF_Logo.png";
 import EdnannyaLogo from "@/assets/donors/ednannia.jpg";
+import JeunesseLogo from "@/assets/donors/COE-logo-and-Youth-Jeunesse-Quadri.png";
+import Pramuemo from "@/assets/donors/Pramuemo.png";
+import Unfpa from "@/assets/donors/unfpa.png";
 
 export const donorsList = [
   {
@@ -53,5 +56,20 @@ export const donorsList = [
     logo: (
       <Image src={EdnannyaLogo} alt={"ednannya"} height={200} width={200} />
     ),
+  },
+  {
+    title: "Council of Europe",
+    link: "https://www.coe.int/uk/web/kyiv",
+    logo: <Image src={JeunesseLogo} alt={"Council"} height={200} width={200} />,
+  },
+  {
+    title: "EEAS",
+    link: "https://www.eeas.europa.eu/node/41139_uk",
+    logo: <Image src={Pramuemo} alt={"Pramuemo"} height={150} width={150} />,
+  },
+  {
+    title: "UNFPA",
+    link: "https://ukraine.unfpa.org/uk",
+    logo: <Image src={Unfpa} alt={"unfpa"} height={200} width={200} />,
   },
 ];
