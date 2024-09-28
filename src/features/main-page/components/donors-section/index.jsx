@@ -5,8 +5,8 @@ import clsx from "clsx";
 const DonorsSection = () => {
   return (
     <div className="container mt-[40px] md:px-10 px-3 xl:px-20 ">
-      <h5 className="font-bold text-[25px] md:text-[35px] text-center lg:text-[55px]">
-        Наші Донори
+      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+        Нас підтримали
       </h5>
       <div className="flex justify-center mt-8 gap-5">
         <div className="flex md:gap-[50px] gap-[20px] w-full flex-wrap sm:flex-nowrap md:justify-normal justify-around">
