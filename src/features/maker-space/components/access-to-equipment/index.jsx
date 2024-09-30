@@ -40,7 +40,7 @@ const AccessToEquipment = () => {
           детальним списком обладнання можна ознайомитися{" "}
           <a
             href={
-              "https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit?usp=sharing"
+              "https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit#heading=h.dyv4uv59g026"
             }
             target="_blank"
             className="hover:underline text-[#49B6FF]"
@@ -75,7 +75,7 @@ const AccessToEquipment = () => {
           договір про користування.{" "}
           <a
             href={
-              "https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit?usp=sharing"
+              "https://docs.google.com/document/d/1h6ihLuqniJsuY4ZE4on-2dgZ3rktg5cv/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
             }
             target="_blank"
             className="hover:underline text-[#49B6FF]"

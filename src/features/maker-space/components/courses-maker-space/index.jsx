@@ -179,7 +179,7 @@ const CoursesMakerSpace = () => {
             href={"https://forms.gle/brpmPdXPsPxpnRva8"}
             target="_blank"
           >
-            Приєднатися до нас
+            Записатися на курси
           </a>
         </motion.div>
       </div>
