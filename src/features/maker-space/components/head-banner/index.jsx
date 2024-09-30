@@ -5,14 +5,14 @@ import Donors from "@/assets/making-space/donor-1.svg";
 
 const HeadBanner = () => {
   return (
-    <div>
+    <div className="HeadBanner  ">
       <div className="relative">
         <Image
           src={HeaderBanner}
           alt={"header banner"}
-          className="object-cover object-center w-screen h-[700px] opacity-50"
+          className="object-cover object-center w-screen h-[700px] opacity-70"
         />
-        <div className="mt-[50px] md:ml-[100px] absolute top-1/2 left-1/2 transform text-center min-w-[250px] w-fit lg:text-nowrap -translate-x-1/2 -translate-y-1/2 rounded-full text-black bg-white/75 md:text-[24px] text-[22px] lg:text-[30px] p-4 sm:p-4 sm:px-6 px-2">
+        <div className="mt-[50px] md:ml-[100px] absolute top-1/2 left-1/2 transform text-center min-w-[250px] w-fit lg:text-nowrap -translate-x-1/2 -translate-y-1/2 rounded-full text-black bg-white/75 md:text-[24px] text-[20px] lg:text-[30px] p-4 sm:p-4 sm:px-6 px-2">
           Місце, де ідеї стають реальністю
         </div>
         <div className="absolute top-[140px] lg:left-[20%] left-[10%] flex bg-white/75 w-fit rounded-full items-center gap-2">

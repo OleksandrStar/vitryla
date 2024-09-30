@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import {
@@ -7,6 +8,7 @@ import {
 } from "@/components/accordion-component";
 import Image from "next/image";
 import LogoIcon from "@/assets/making-space/makerSpaceLogo.svg";
+import { motion } from "framer-motion";
 
 const MakerSpaceIcon = (
   <Image src={LogoIcon} alt={"maker-space-icon"} width="46" height="46" />
@@ -18,7 +20,7 @@ const CoursesMakerSpace = () => {
       id={"courses-MakerSpace"}
       className="container !outline-0 mt-[20px] md:mt-[2.2rem] max-w-[1280px]"
     >
-      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px] mb-2">
         Наші курси
       </h5>
       <Accordion.Root className="w-full" type="single" collapsible>
@@ -163,6 +165,24 @@ const CoursesMakerSpace = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion.Root>
+      <div className="md:h-[20vh] h-[15vh] flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, transform: "translateX(100px)" }}
+          whileInView={{ opacity: 1, transform: "translateX(0)" }}
+          viewport={{ once: true, amount: 0.7 }}
+          className="md:text-[18px] z-10 text-center min-w-[300px] flex items-center justify-center"
+        >
+          <a
+            className="bg-white rounded font-bold text-[16px] md:text-[24px] text-black
+        border-black border-2 p-4 duration-500 hover:bg-black
+        hover:text-white"
+            href={"https://forms.gle/brpmPdXPsPxpnRva8"}
+            target="_blank"
+          >
+            Приєднатися до нас
+          </a>
+        </motion.div>
+      </div>
     </div>
   );
 };

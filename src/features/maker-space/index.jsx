@@ -15,11 +15,11 @@ const MakerSpace = () => {
     <div>
       <HeadBanner />
       <AboutMakerSpace />
+      <CoursesMakerSpace />
       <ResidencyComponent />
       <ResidentCard />
       <AccessToEquipment />
       <MakersCommunity />
-      <CoursesMakerSpace />
       <QuestionMakerSpace />
       <BecomeResident />
       <WorkSpaceContacts />

@@ -8,7 +8,7 @@ const ResidencyComponent = () => {
   return (
     <div
       id="residency-MakerSpace"
-      className="md:flex my-5 p-4 max-w-[1000px] mx-auto lg:px-0 px-10"
+      className="md:flex mb-5 p-4 max-w-[1000px] mx-auto lg:px-0 px-10 pt-0"
     >
       <div className="md:w-1/2 pr-5">
         <div className="text-[30px] md:text-[35px] lg:text-[55px] md:text-left text-center">

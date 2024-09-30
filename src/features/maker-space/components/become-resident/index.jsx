@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const BecomeResident = () => {
   return (
     <div
-      className="w-full relative md:bg-center h-[60svh] md:bg-cover bg-auto md:bg-fixed bg-scroll flex justify-center items-center flex-col gap-14 p-4 overflow-hidden"
+      className="w-full relative md:bg-center bg-center h-[60svh] md:bg-cover bg-auto md:bg-fixed bg-scroll flex justify-center items-center flex-col gap-14 p-4 overflow-hidden"
       style={{
         backgroundImage: `url(${BackgroundImage.src})`,
         backgroundRepeat: "no-repeat",
@@ -33,7 +33,7 @@ const BecomeResident = () => {
         bg-none
         border-white border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
         hover:text-black hover:border-black"
-          href="https://docs.google.com/document/d/1h6ihLuqniJsuY4ZE4on-2dgZ3rktg5cv/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
+          href="https://forms.gle/NXaMzasvw6k2Mo5K7"
           target="_blank"
         >
           Стати резидентом

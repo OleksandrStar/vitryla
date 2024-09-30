@@ -18,7 +18,6 @@ const AccessToEquipment = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          // backgroundAttachment: "fixed",
         }}
       >
         <div className="absolute w-full h-full top-0 left-0 bg-[rgba(0,0,0,0.7)]"></div>
@@ -60,7 +59,7 @@ const AccessToEquipment = () => {
         bg-none
         border-white border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
         hover:text-black hover:border-black"
-            href="https://t.me/vitryla_community"
+            href="https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit#heading=h.dyv4uv59g026"
             target="_blank"
           >
             Наше обладнання

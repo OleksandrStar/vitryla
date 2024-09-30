@@ -10,7 +10,7 @@ const QuestionMakerSpace = () => {
   return (
     <div
       id={"questions-MakerSpace"}
-      className="container !outline-0 mt-[20px] md:my-[2.2rem] max-w-[1280px]"
+      className="container !outline-0 mt-[20px] md:my-[2.2rem] my-[1.2rem] max-w-[1280px]"
     >
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
         Часті запитання
@@ -31,7 +31,7 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-2">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] text-[18px] ">
+            <div className="text-left md:text-center text-[16px] md:text-[18px] ">
               Які є вимоги для участі в платних курсах?
             </div>
           </AccordionTrigger>
@@ -55,7 +55,7 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-3">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] text-[18px] ">
+            <div className="text-left md:text-center text-[16px] md:text-[18px] ">
               Яка політика безпеки в мейкерспейсі?
             </div>
           </AccordionTrigger>
@@ -75,7 +75,7 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-4">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] ">
+            <div className="text-left text-[16px] md:text-[18px]">
               Чи можу я використовувати мейкерспейс для проведення власних
               заходів або майстер-класів?
             </div>
@@ -89,7 +89,7 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-5">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] ">
+            <div className="text-left md:text-center md:text-[18px] text-[16px]">
               Які години роботи мейкерспейсу?
             </div>
           </AccordionTrigger>
@@ -103,7 +103,7 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-6">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] ">
+            <div className="text-left md:text-center md:text-[18px] text-[16px]">
               Чи ви виконуєте дрібні замовлення?
             </div>
           </AccordionTrigger>
@@ -117,7 +117,7 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-7">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] ">
+            <div className="text-left md:text-center md:text-[18px] text-[16px]">
               Чи надаєте ви витратні матеріали для роботи?
             </div>
           </AccordionTrigger>
