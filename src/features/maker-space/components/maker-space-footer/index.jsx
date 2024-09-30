@@ -68,11 +68,11 @@ const MakerSpaceFooter = () => {
               className="hidden md:flex"
             />
             <a
-              href="mailto:ngo.vitryla@gmail.com"
+              href="mailto:vitryla.maker.space@gmail.com"
               target="_blank"
               className="text-white font-bold"
             >
-              ngo.vitryla@gmail.com
+              vitryla.maker.space@gmail.com
             </a>
           </div>
         </div>

@@ -43,11 +43,11 @@ export default function WorkSpaceContacts() {
               <div className="flex items-center gap-3 justify-center md:justify-start">
                 <Image src={MailLogo} width={36} height={36} alt="address" />
                 <a
-                  href="mailto:ngo.vitryla@gmail.com"
+                  href="mailto:vitryla.maker.space@gmail.com"
                   target="_blank"
                   className="text-black font-bold"
                 >
-                  ngo.vitryla@gmail.com
+                  vitryla.maker.space@gmail.com
                 </a>
               </div>
               <div className="flex gap-4 items-center justify-center md:justify-start">
