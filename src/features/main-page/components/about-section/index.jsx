@@ -3,6 +3,7 @@ import AboutBigImg from "@/assets/images/about-section/about-img.jpg";
 import AboutBigImg2 from "@/assets/images/about-section/about-img-2.jpg";
 import AboutBigImg3 from "@/assets/images/about-section/about-img-3.jpg";
 import AboutBigImg4 from "@/assets/images/about-section/about-img-4.jpg";
+import TeamImg from "@/assets/images/about-section/Team.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
@@ -11,12 +12,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const settings = {
   infinite: true,
-  speed: 1700,
+  speed: 3000,
   slidesToShow: 1,
   slidesToScroll: 1,
   className: "lg:h-[470px] md:h-[370px] h-[270px] ",
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 5500,
   fade: false,
   arrows: false,
   cssEase: "ease-in-out",
@@ -36,7 +37,13 @@ const settings = {
   ],
 };
 
-const imagesList = [AboutBigImg, AboutBigImg2, AboutBigImg3, AboutBigImg4];
+const imagesList = [
+  TeamImg,
+  AboutBigImg,
+  AboutBigImg2,
+  AboutBigImg3,
+  AboutBigImg4,
+];
 
 const AboutSection = () => {
   return (
