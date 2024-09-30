@@ -44,7 +44,7 @@ const MakersCommunity = () => {
   return (
     <div
       id={"makersCommunity-MakerSpace"}
-      className="mt-[20px] md:mt-[2.2rem] w-screen overflow-hidden"
+      className="mt-[20px] md:mt-[2.2rem] w-full overflow-hidden"
     >
       <div className="container text-center">
         <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">

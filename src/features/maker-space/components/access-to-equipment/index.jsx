@@ -8,7 +8,7 @@ const AccessToEquipment = () => {
   return (
     <div
       id={"equipment-MakerSpace"}
-      className="w-screen overflow-hidden md:h-full h-[700px]"
+      className="w-full overflow-hidden md:h-full h-[700px]"
     >
       <div
         id="opportunities"
