@@ -104,7 +104,7 @@ const QuestionMakerSpace = () => {
         <AccordionItem value="item-6">
           <AccordionTrigger>
             <div className="text-left md:text-center md:text-[18px] text-[16px]">
-              Чи ви виконуєте дрібні замовлення?
+            Чи робимо вироби на замовлення?
             </div>
           </AccordionTrigger>
           <AccordionContent className="text-[18px] font-base">

@@ -53,7 +53,7 @@ export default function WorkSpaceContacts() {
               <div className="flex gap-4 items-center justify-center md:justify-start">
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/vitryla_?igsh=MW9vN2FnbWtob2hweg=="
+                  href="https://www.instagram.com/vitryla_mspace?igsh=enEzZHh5eTdsZmUy"
                 >
                   <Image
                     src={InstLogo}
@@ -72,7 +72,7 @@ export default function WorkSpaceContacts() {
                 </a>
                 <a
                   target="_blank"
-                  href="https://linktr.ee/vitryla?utm_source=linktree_profile_share&ltsid=f6d3a859-6fcf-4794-8104-32a51c65e2d7"
+                  href="https://www.linkedin.com/company/vitryla/"
                 >
                   <Image
                     src={LinkedinLogo}
@@ -81,7 +81,7 @@ export default function WorkSpaceContacts() {
                     height={36}
                   />
                 </a>
-                <a target="_blank" href="https://www.facebook.com/vitrylaa">
+                <a target="_blank" href="https://www.facebook.com/ngo.vitryla">
                   <Image
                     src={FacebookLogo}
                     alt="facebook"

@@ -12,7 +12,7 @@ const AccessToEquipment = () => {
     >
       <div
         id="opportunities"
-        className="w-full relative flex md:bg-fixed bg-scroll justify-center items-center flex-col md:gap-8 gap-7 p-4 md:h-[75svh] h-[700px]"
+        className="w-full relative flex md:bg-fixed bg-scroll justify-center items-center flex-col md:gap-8 gap-7 p-4 pb-6 md:h-[75svh] h-[700px]"
         style={{
           backgroundImage: `url(${BackgroundImage.src})`,
           backgroundSize: "cover",

@@ -84,12 +84,20 @@ const Footer = () => {
           >
             Зателефонуйте нам
           </a>
-          <span className="text-white font-bold cursor-pointer">
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/1D387bGP6YnfsR5cLa4DtYAIopX-Z93aClcXaaweaJ_o/edit?usp=sharing"
+            className="text-white font-bold cursor-pointer"
+          >
             Часті питання
-          </span>
-          <span className="text-white font-bold cursor-pointer">
+          </a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/drive/folders/1yhBI-Q66dxSkE32Lpuj0Ih8LMbN-d9q9?usp=sharing"
+            className="text-white font-bold cursor-pointer"
+          >
             Юридична інформація
-          </span>
+          </a>
         </div>
         <div className="flex flex-col gap-4 items-center md:items-end">
           <div className="flex flex-col gap-6 items-center ">
@@ -110,7 +118,7 @@ const Footer = () => {
               </a>
               <a
                 target="_blank"
-                href="https://linktr.ee/vitryla?utm_source=linktree_profile_share&ltsid=f6d3a859-6fcf-4794-8104-32a51c65e2d7"
+                href="https://www.linkedin.com/company/vitryla/"
               >
                 <Image
                   src={LinkedinLogo}
@@ -119,7 +127,7 @@ const Footer = () => {
                   height={36}
                 />
               </a>
-              <a target="_blank" href="https://www.facebook.com/vitrylaa">
+              <a target="_blank" href="https://www.facebook.com/ngo.vitryla">
                 <Image
                   src={FacebookLogo}
                   alt="facebook"
