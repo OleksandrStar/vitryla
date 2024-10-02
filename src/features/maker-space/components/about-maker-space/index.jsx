@@ -1,10 +1,10 @@
 import React from "react";
 import MakerSpace from "@/features/maker-space";
 import Image from "next/image";
-import WoodIcon from "@/assets/making-space/icon/wood.svg";
-import SpaceIcon from "@/assets/making-space/icon/space.svg";
-import CoursesIcon from "@/assets/making-space/icon/coueses.svg";
-import MakerSpaceLogo from "@/assets/images/MakingSpace.svg";
+import WoodIcon from "../../../../public/making-space/icon/wood.svg";
+import SpaceIcon from "../../../../public/making-space/icon/space.svg";
+import CoursesIcon from "../../../../public/making-space/icon/coueses.svg";
+import MakerSpaceLogo from "../../../../public/images/MakingSpace.svg";
 
 const AboutMakerSpace = () => {
   return (

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import BackgroundImage from "@/assets/making-space/image5.jpg";
+import BackgroundImage from "../../../../public/making-space/image5.jpg";
 import { motion } from "framer-motion";
 
 const AccessToEquipment = () => {

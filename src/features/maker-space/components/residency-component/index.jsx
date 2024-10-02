@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import ResidencyImg from "@/assets/making-space/image11.jpg";
+import ResidencyImg from "../../../../public/making-space/image11.jpg";
 import { motion } from "framer-motion";
 
 const ResidencyComponent = () => {

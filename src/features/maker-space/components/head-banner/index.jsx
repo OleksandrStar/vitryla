@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import HeaderBanner from "@/assets/making-space/image-10.jpg";
-import Donors from "@/assets/making-space/donor-1.svg";
+import HeaderBanner from "../../../../public/making-space/image-10.jpg";
+import Donors from "../../../../public/making-space/donor-1.svg";
 
 const HeadBanner = () => {
   const handleScroll = (e, targetId) => {
