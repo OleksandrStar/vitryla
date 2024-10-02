@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import UnicefLogo from "@/assets/donors/UNICEF_Logo.png";
-import JeunesseLogo from "@/assets/donors/COE-logo-and-Youth-Jeunesse-Quadri.png";
-import Pramuemo from "@/assets/donors/Pramuemo.png";
-import Unfpa from "@/assets/donors/unfpa.png";
-import EdnannyaLogo from "@/assets/donors/ednannia.png";
+import UnicefLogo from "../../../../public/donors/UNICEF_Logo.png";
+import JeunesseLogo from "../../../../public/donors/COE-logo-and-Youth-Jeunesse-Quadri.png";
+import Pramuemo from "../../../../public/donors/Pramuemo.png";
+import Unfpa from "../../../../public/donors/unfpa.png";
+import EdnannyaLogo from "../../../../public/donors/ednannia.png";
 
 export const donorsList = [
   {

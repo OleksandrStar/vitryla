@@ -1,13 +1,13 @@
 "use client";
 import Map from "@/components/map/map";
 import Image from "next/image";
-import AddressLogo from "@/assets/images/address.svg";
-import InstLogo from "@/assets/images/instagramBlue.svg";
-import TelegramLogo from "@/assets/images/telegramBlue.svg";
-import LinkedinLogo from "@/assets/images/linkedinBlue.svg";
-import PhoneLogo from "@/assets/images/phone.svg";
-import MailLogo from "@/assets/images/mail.svg";
-import FacebookLogo from "@/assets/images/facebookBlue.svg";
+import AddressLogo from "../../../../public/images/address.svg";
+import InstLogo from "../../../../public/images/instagramBlue.svg";
+import TelegramLogo from "../../../../public/images/telegramBlue.svg";
+import LinkedinLogo from "../../../../public/images/linkedinBlue.svg";
+import PhoneLogo from "../../../../public/images/phone.svg";
+import MailLogo from "../../../../public/images/mail.svg";
+import FacebookLogo from "../../../../public/images/facebookBlue.svg";
 
 export default function WorkSpaceContacts() {
   return (

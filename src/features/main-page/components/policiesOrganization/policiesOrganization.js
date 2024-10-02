@@ -1,9 +1,9 @@
-import BackgroundImage from "@/assets/images/policiesOrg.jpg";
+import BackgroundImage from "../../../../public/images/policiesOrg.jpg";
 import Image from "next/image";
-import GendersIcon from "@/assets/images/genders.svg";
-import FamilyIcon from "@/assets/images/family.svg";
-import PrisonIcon from "@/assets/images/prison.svg";
-import MoneyIcon from "@/assets/images/money.svg";
+import GendersIcon from "../../../../public/images/genders.svg";
+import FamilyIcon from "../../../../public/images/family.svg";
+import PrisonIcon from "../../../../public/images/prison.svg";
+import MoneyIcon from "../../../../public/images/money.svg";
 import { motion } from "framer-motion";
 
 export default function PoliciesOrganization() {
