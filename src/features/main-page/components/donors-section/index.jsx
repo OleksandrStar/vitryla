@@ -4,9 +4,8 @@ import clsx from "clsx";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Arrow from "@/assets/donors/arrow.svg";
+import Arrow from "../../../../public/donors/arrow.svg";
 import Image from "next/image";
-
 
 const NextArrow = ({ onClick }) => {
   return (
@@ -14,7 +13,13 @@ const NextArrow = ({ onClick }) => {
       className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer text-gray-500 hover:text-gray-800 right-[-50px] md:right-[-40px]"
       onClick={onClick}
     >
-      <Image src={Arrow} alt="next arrow" width={50} height={50} className="md:w-[50px] md:h-[50px] "/>
+      <Image
+        src={Arrow}
+        alt="next arrow"
+        width={50}
+        height={50}
+        className="md:w-[50px] md:h-[50px] "
+      />
     </div>
   );
 };
@@ -26,7 +31,13 @@ const PrevArrow = ({ onClick }) => {
       className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer text-gray-500 hover:text-gray-800 rotate-180 left-[-50px] md:left-[-40px]"
       onClick={onClick}
     >
-       <Image src={Arrow} alt="prev arrow" width={50} height={50} className="md:w-[50px] md:h-[50px] "/>
+      <Image
+        src={Arrow}
+        alt="prev arrow"
+        width={50}
+        height={50}
+        className="md:w-[50px] md:h-[50px] "
+      />
     </div>
   );
 };
@@ -38,7 +49,7 @@ const settings = {
   cssEase: "ease-in-out",
   fade: false,
   arrows: true,
-  nextArrow: <NextArrow />,  
+  nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
   responsive: [
     {
@@ -64,38 +75,38 @@ const DonorsSection = () => {
       </h5>
       <div className="flex justify-center mt-8 gap-5">
         <div className="w-full md:px-0 px-12">
-        <Slider {...settings}>
-          {donorsList.map((donor, index) => {
-            return (
-              <a
-                key={index}
-                className={clsx(
-                  "md:min-h-[140px] aspect-square duration-300 hover:scale-105 transition-all ease-in cursor-pointer my-4 px-4",
-                )}
-                href={donor.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                draggable={true}
-              >
-                <div className="shadow-md rounded-full p-[30px] bg-white h-full flex flex-col items-center justify-center w-full">
-                  <div
-                    className={clsx(
-                      "h-[200px] max-w-[300px] max-h-[300px] flex items-center justify-center",
-                      index === 0 && "md:p-5 sm:p-3 p-3",
-                      index === donorsList.length - 1
-                        ? "w-[300px] h-[200px]"
-                        : " w-full",
-                    )}
-                  >
-                    {donor.logo}
+          <Slider {...settings}>
+            {donorsList.map((donor, index) => {
+              return (
+                <a
+                  key={index}
+                  className={clsx(
+                    "md:min-h-[140px] aspect-square duration-300 hover:scale-105 transition-all ease-in cursor-pointer my-4 px-4",
+                  )}
+                  href={donor.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  draggable={true}
+                >
+                  <div className="shadow-md rounded-full p-[30px] bg-white h-full flex flex-col items-center justify-center w-full">
+                    <div
+                      className={clsx(
+                        "h-[200px] max-w-[300px] max-h-[300px] flex items-center justify-center",
+                        index === 0 && "md:p-5 sm:p-3 p-3",
+                        index === donorsList.length - 1
+                          ? "w-[300px] h-[200px]"
+                          : " w-full",
+                      )}
+                    >
+                      {donor.logo}
+                    </div>
+                    <div className="text-center lg:text-[30px] text-[20px] border-t border-[49B6FF] p-2">
+                      {donor.title}
+                    </div>
                   </div>
-                  <div className="text-center lg:text-[30px] text-[20px] border-t border-[49B6FF] p-2">
-                    {donor.title}
-                  </div>
-                </div>
-              </a>
-            );
-          })}
+                </a>
+              );
+            })}
           </Slider>
         </div>
       </div>

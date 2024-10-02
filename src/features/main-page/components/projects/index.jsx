@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import MakerSpaceImage from "@/assets/images/MakingSpace.svg";
-import RobotsImage from "@/assets/images/Robots.png";
+import MakerSpaceImage from "../../../../public/images/MakingSpace.svg";
+import RobotsImage from "../../../../public/images/Robots.png";
 import Link from "next/link";
 
 const ProjectsSection = () => {

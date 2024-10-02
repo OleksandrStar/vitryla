@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import AddressLogo from "@/assets/images/address.svg";
-import InstLogo from "@/assets/images/instagram.svg";
-import TelegramLogo from "@/assets/images/telegram.svg";
-import LinkedinLogo from "@/assets/images/linkedin.svg";
-import SupportLogo from "@/assets/images/support.svg";
-import InfoLogo from "@/assets/images/info.svg";
-import PhoneLogo from "@/assets/images/phone.svg";
-import MailLogo from "@/assets/images/mail.svg";
-import FacebookLogo from "@/assets/images/facebook.svg";
+import AddressLogo from "../../public/images/address.svg";
+import InstLogo from "../../public/images/instagram.svg";
+import TelegramLogo from "../../public/images/telegram.svg";
+import LinkedinLogo from "../../public/images/linkedin.svg";
+import SupportLogo from "../../public/images/support.svg";
+import InfoLogo from "../../public/images/info.svg";
+import PhoneLogo from "../../public/images/phone.svg";
+import MailLogo from "../../public/images/mail.svg";
+import FacebookLogo from "../../public/images/facebook.svg";
 
 const Footer = () => {
   return (

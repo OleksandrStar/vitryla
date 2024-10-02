@@ -1,9 +1,9 @@
-import VMK from "@/assets/partners/vmk.jpg";
-import Logo1 from "@/assets/partners/bodro-logo.png";
-import Logo2 from "@/assets/partners/youthplatform.png";
-import Logo3 from "@/assets/partners/novovolynska.png";
-import Logo4 from "@/assets/partners/vitula.png";
-import Logo5 from "@/assets/partners/logo_uk.png";
+import VMK from "../../../../public/partners/vmk.jpg";
+import Logo1 from "../../../../public/partners/bodro-logo.png";
+import Logo2 from "../../../../public/partners/youthplatform.png";
+import Logo3 from "../../../../public/partners/novovolynska.png";
+import Logo4 from "../../../../public/partners/vitula.png";
+import Logo5 from "../../../../public/partners/logo_uk.png";
 
 export const partnersList = [
   {

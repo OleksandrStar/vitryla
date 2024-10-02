@@ -1,6 +1,6 @@
-import FirstCircle from "@/assets/images/OurValuesCircleFirst.svg";
-import SecondCircle from "@/assets/images/OurValuesCircleSecond.svg";
-import ThirdCircle from "@/assets/images/OurValuesCircleThird.svg";
+import FirstCircle from "../../../../public/images/OurValuesCircleFirst.svg";
+import SecondCircle from "../../../../public/images/OurValuesCircleSecond.svg";
+import ThirdCircle from "../../../../public/images/OurValuesCircleThird.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import "./index.css";

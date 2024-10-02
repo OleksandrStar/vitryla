@@ -1,4 +1,4 @@
-import BackgroundImage from "@/assets/images/opportunities.jpg";
+import BackgroundImage from "../../../../public/images/opportunities.jpg";
 import { motion } from "framer-motion";
 
 export default function Opportunities() {
