@@ -52,6 +52,13 @@ const MakerSpaceHeader = () => {
             Про проєкт
           </a>
           <a
+            href="#courses-MakerSpace"
+            onClick={(e) => handleScroll(e, "courses-MakerSpace")}
+            className={`nav-link ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
+          >
+            Курси
+          </a>
+          <a
             href="#residency-MakerSpace"
             onClick={(e) => handleScroll(e, "residency-MakerSpace")}
             className={`nav-link ${activeAnchor === "residency-MakerSpace" ? "active" : ""}`}
@@ -71,13 +78,6 @@ const MakerSpaceHeader = () => {
             className={`nav-link ${activeAnchor === "makersCommunity-MakerSpace" ? "active" : ""}`}
           >
             Наша спільнота
-          </a>
-          <a
-            href="#courses-MakerSpace"
-            onClick={(e) => handleScroll(e, "courses-MakerSpace")}
-            className={`nav-link ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
-          >
-            Курси
           </a>
           <a
             href="#questions-MakerSpace"
@@ -114,6 +114,13 @@ const MakerSpaceHeader = () => {
               Про проєкт
             </a>
             <a
+              href="#courses-MakerSpace"
+              onClick={(e) => handleScroll(e, "courses-MakerSpace")}
+              className={`nav-link ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
+            >
+              Курси
+            </a>
+            <a
               href="#residency-MakerSpace"
               onClick={(e) => handleScroll(e, "residency-MakerSpace")}
               className={`nav-link ${activeAnchor === "residency-MakerSpace" ? "active" : ""}`}
@@ -133,13 +140,6 @@ const MakerSpaceHeader = () => {
               className={`nav-link ${activeAnchor === "makersCommunity-MakerSpace" ? "active" : ""}`}
             >
               Наша спільнота
-            </a>
-            <a
-              href="#courses-MakerSpace"
-              onClick={(e) => handleScroll(e, "courses-MakerSpace")}
-              className={`nav-link ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
-            >
-              Курси
             </a>
             <a
               href="#questions-MakerSpace"
