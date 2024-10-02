@@ -12,12 +12,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const settings = {
   infinite: true,
-  speed: 3000,
+  speed: 2000,
   slidesToShow: 1,
   slidesToScroll: 1,
   className: "lg:h-[470px] md:h-[370px] h-[270px] ",
   autoplay: true,
-  autoplaySpeed: 5500,
+  autoplaySpeed: 3500,
   fade: false,
   arrows: false,
   cssEase: "ease-in-out",
