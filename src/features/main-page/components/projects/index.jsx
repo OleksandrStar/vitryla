@@ -25,7 +25,7 @@ const ProjectsSection = () => {
 
   return (
     <div
-      className="w-full flex items-center my-10 flex-col gap-6"
+      className="w-full flex items-center my-10 flex-col md:gap-6 gap-3"
       id="projects"
     >
       <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
               {item.link ? (
                 <Link
                   href={item.link}
-                  className={`lg:h-[420px] md:h-[400px] h-[350px] flex flex-col group p-5 rounded-2xl hover:shadow-xl transition-all ${item.isActive < 1 ? "opacity-50" : ""}`}
+                  className={`lg:h-[420px] md:h-[400px] h-[110%] flex flex-col group p-5 rounded-2xl hover:shadow-xl transition-all ${item.isActive < 1 ? "opacity-50" : ""}`}
                 >
                   <div className="w-full flex justify-center lg:h-[280px] md:h-[240px] h-[300px]">
                     <Image

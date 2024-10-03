@@ -20,7 +20,7 @@ const CoursesMakerSpace = () => {
       id={"courses-MakerSpace"}
       className="container !outline-0 mt-[20px] md:mt-[2.2rem] max-w-[1280px]"
     >
-      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px] mb-2">
+      <h5 className="text-[30px] md:text-[35px] lg:text-[55px] text-center my-2">
         Наші курси
       </h5>
       <Accordion.Root className="w-full" type="single" collapsible>
@@ -174,7 +174,7 @@ const CoursesMakerSpace = () => {
         >
           <a
             className="bg-white rounded font-bold text-[16px] md:text-[24px] text-black
-        border-black border-2 p-4 duration-500 hover:bg-black
+        border-black border-2 p-4 duration-500 hover:bg-black text-nowrap
         hover:text-white"
             href={"https://forms.gle/brpmPdXPsPxpnRva8"}
             target="_blank"
