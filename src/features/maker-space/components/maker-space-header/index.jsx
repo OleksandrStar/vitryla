@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import LogoImg from "../../../../assets/images/MakingSpace.svg";
+import LogoImg from "../../../../public/images/MakingSpace.svg";
 import Image from "next/image";
 import Link from "next/link";
-import HamburgerLogo from "@/assets/images/hamburger.svg";
-import CloseIcon from "@/assets/images/close.svg";
+import HamburgerLogo from "../../../../public/images/hamburger.svg";
+import CloseIcon from "../../../../public/images/close.svg";
 
 const MakerSpaceHeader = () => {
   const [activeAnchor, setActiveAnchor] = useState(null);

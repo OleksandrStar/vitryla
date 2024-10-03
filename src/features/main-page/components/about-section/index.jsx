@@ -4,7 +4,6 @@ import AboutBigImg2 from "../../../../public/images/about-section/about-img-2.jp
 import AboutBigImg3 from "../../../../public/images/about-section/about-img-3.jpg";
 import AboutBigImg4 from "../../../../public/images/about-section/about-img-4.jpg";
 import TeamImg from "../../../../public/images/about-section/Team.jpg";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -38,11 +37,11 @@ const settings = {
 };
 
 const imagesList = [
-  TeamImg,
-  AboutBigImg,
-  AboutBigImg2,
-  AboutBigImg3,
-  AboutBigImg4,
+  TeamImg.src,
+  AboutBigImg.src,
+  AboutBigImg2.src,
+  AboutBigImg3.src,
+  AboutBigImg4.src,
 ];
 
 const AboutSection = () => {
@@ -56,7 +55,7 @@ const AboutSection = () => {
           <Slider {...settings}>
             {imagesList.map((img, index) => (
               <div key={index} className="h-full md:w-[400px] w-[250px]">
-                <Image
+                <img
                   src={img}
                   alt={`img-${index}`}
                   className="lg:h-[500px] md:h-[400px] h-[300px] w-full object-cover"

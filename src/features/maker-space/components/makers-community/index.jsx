@@ -3,10 +3,10 @@
 import dynamic from "next/dynamic";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image2 from "@/assets/making-space/image5.jpg";
-import Image3 from "@/assets/making-space/image 6.jpg";
-import Image4 from "@/assets/making-space/image 8.jpg";
-import Image5 from "@/assets/making-space/image7.jpg";
+import Image2 from "../../../../public/making-space/image5.jpg";
+import Image3 from "../../../../public/making-space/image 6.jpg";
+import Image4 from "../../../../public/making-space/image 8.jpg";
+import Image5 from "../../../../public/making-space/image7.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 const Slider = dynamic(() => import("react-slick"), { ssr: false });

@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/accordion-component";
 import Image from "next/image";
-import LogoIcon from "@/assets/making-space/makerSpaceLogo.svg";
+import LogoIcon from "../../../../public/making-space/makerSpaceLogo.svg";
 import { motion } from "framer-motion";
 
 const MakerSpaceIcon = (
