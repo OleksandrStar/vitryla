@@ -132,7 +132,7 @@ const MakerSpaceHeader = () => {
               onClick={(e) => handleScroll(e, "equipment-MakerSpace")}
               className={`nav-link ${activeAnchor === "equipment-MakerSpace" ? "active" : ""}`}
             >
-              Oбладнання
+              Обладнання
             </a>
             <a
               href="#makersCommunity-MakerSpace"

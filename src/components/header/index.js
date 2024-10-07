@@ -64,7 +64,7 @@ const Header = () => {
             onClick={(e) => handleScroll(e, "partners")}
             className={`nav-link ${activeAnchor === "partners" ? "active" : ""}`}
           >
-            Партнери та донори
+            Партнери
           </a>
           <a
             href="#opportunities"
@@ -105,7 +105,7 @@ const Header = () => {
               onClick={(e) => handleScroll(e, "partners")}
               className={`nav-link ${activeAnchor === "partners" ? "active" : ""}`}
             >
-              Партнери та донори
+              Партнери
             </a>
             <a
               href="#opportunities"

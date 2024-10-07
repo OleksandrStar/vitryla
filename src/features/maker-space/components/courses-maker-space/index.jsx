@@ -173,8 +173,8 @@ const CoursesMakerSpace = () => {
           className="md:text-[18px] z-10 text-center min-w-[300px] flex items-center justify-center"
         >
           <a
-            className="bg-white rounded font-bold text-[16px] md:text-[24px] text-black
-        border-black border-2 p-4 duration-500 hover:bg-black text-nowrap
+            className="bg-white text-nowrap rounded font-bold text-[16px] md:text-[24px] text-black
+        border-black border-2 p-4 duration-500 hover:bg-black
         hover:text-white"
             href={"https://forms.gle/brpmPdXPsPxpnRva8"}
             target="_blank"
