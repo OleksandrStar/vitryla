@@ -52,7 +52,7 @@ export default function Opportunities() {
         viewport={{ once: true, amount: 0.7 }}
         className="text-white text-[10px] md:text-[14px] max-w-[300px] md:max-w-[500px] z-10 text-center"
       >
-        А якщо ти повен ідей як прокачати молодь через STEAM освіту — пиши нам
+        А якщо ти повен ідей, як прокачати молодь через STEAM освіту, пиши нам
         та реалізуй свою ідею спільно з нами.
       </motion.div>
     </div>
