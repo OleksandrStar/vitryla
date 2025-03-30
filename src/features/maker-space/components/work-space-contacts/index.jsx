@@ -1,7 +1,7 @@
 "use client";
 import Map from "@/components/map/map";
 import Image from "next/image";
-import AddressLogo from "../../../../public/images/address.svg";
+import AddressLogo from "../../../../public/making-space/images/address.svg";
 import InstLogo from "../../../../public/making-space/images/instagramBlue.svg";
 import TelegramLogo from "../../../../public/making-space/images/telegramBlue.svg";
 import LinkedinLogo from "../../../../public/making-space/images/linkedinBlue.svg";
