@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/accordion-component";
 import Image from "next/image";
-import LogoIcon from "../../../../public/making-space/makerSpaceLogo.svg";
+import LogoIcon from "../../../../public/making-space/logo-min.png";
 import { motion } from "framer-motion";
 
 const MakerSpaceIcon = (
@@ -20,15 +20,20 @@ const CoursesMakerSpace = () => {
       id={"courses-MakerSpace"}
       className="container !outline-0 mt-[20px] md:mt-[2.2rem] max-w-[1280px]"
     >
-      <h5 className="text-[30px] md:text-[35px] lg:text-[55px] text-center my-2">
+      <h5 className="text-[30px] md:text-[35px] lg:text-[55px] text-center my-2 text-[#54423B]">
         Наші курси
       </h5>
       <Accordion.Root className="w-full" type="single" collapsible>
         <AccordionItem value="value-1">
-          <AccordionTrigger icon={MakerSpaceIcon} className="font-bold">
-            <div className={"font-bold"}>Курс «Безпечний майстер»</div>
+          <AccordionTrigger
+            icon={MakerSpaceIcon}
+            className="font-bold text-[#54423B]"
+          >
+            <div className={"font-bold text-[#54423B]"}>
+              Курс «Безпечний майстер»
+            </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base ">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             <div className="leading-9">
               <p>
                 <span className="font-bold">Вік учнів:</span> 9-99 років.
@@ -71,10 +76,15 @@ const CoursesMakerSpace = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger icon={MakerSpaceIcon} className="font-bold">
-            <div className={"font-bold"}>Курс «Змайструй МРІЮ»</div>
+          <AccordionTrigger
+            icon={MakerSpaceIcon}
+            className="font-bold text-[#54423B]"
+          >
+            <div className={"font-bold text-[#54423B]"}>
+              Курс «Змайструй МРІЮ»
+            </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             <div className="leading-9">
               <p>
                 <span className="font-bold">Вік учнів:</span> 9-17 років.
@@ -106,9 +116,11 @@ const CoursesMakerSpace = () => {
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger icon={MakerSpaceIcon}>
-            <div className={"font-bold"}>Курс «Мейкер Junior»</div>
+            <div className={"font-bold text-[#54423B]"}>
+              Курс «Мейкер Junior»
+            </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             <div className="leading-9">
               <p>
                 <span className="font-bold">Вік учнів:</span> 9+ років
@@ -173,9 +185,8 @@ const CoursesMakerSpace = () => {
           className="md:text-[18px] z-10 text-center min-w-[300px] flex items-center justify-center"
         >
           <a
-            className="bg-white text-nowrap rounded font-bold text-[16px] md:text-[24px] text-black
-        border-black border-2 p-4 duration-500 hover:bg-black
-        hover:text-white"
+            className="bg-[#54423B] text-nowrap rounded font-bold text-[16px] md:text-[24px] text-[#D6D6D6]
+         border-[#54423B] border-2 p-4 duration-500 hover:bg-[#D6D6D6] hover:text-[#54423B]"
             href={"https://forms.gle/brpmPdXPsPxpnRva8"}
             target="_blank"
           >

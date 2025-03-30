@@ -12,17 +12,17 @@ const QuestionMakerSpace = () => {
       id={"questions-MakerSpace"}
       className="container !outline-0 mt-[20px] md:my-[2.2rem] my-[1.2rem] max-w-[1280px]"
     >
-      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+      <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px] text-[#54423B]">
         Часті запитання
       </h5>
       <Accordion.Root className="w-full" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] md:text-[18px] ">
+            <div className="text-left md:text-center text-[16px] md:text-[18px] text-[#54423B]">
               Чи можу я взяти обладнання в оренду для комерційної діяльності?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Так. Для комерційної оренди чи використання обладнання у
             бізнес-цілях необхідно окреме узгодження. Зв’яжись з нами для
             отримання детальної інформації та умов.
@@ -31,15 +31,15 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-2">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] md:text-[18px] ">
+            <div className="text-left md:text-center text-[16px] md:text-[18px] text-[#54423B]">
               Які є вимоги для участі в платних курсах?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Щоб записатися на платні курси, потрібно зареєструватися{" "}
             <a
               href={"#"}
-              className="hover:underline text-[#49B6FF]"
+              className="hover:underline text-[#436459]"
               target="_blank"
             >
               тут
@@ -55,17 +55,17 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-3">
           <AccordionTrigger>
-            <div className="text-left md:text-center text-[16px] md:text-[18px] ">
+            <div className="text-left md:text-center text-[16px] md:text-[18px] text-[#54423B]">
               Яка політика безпеки в мейкерспейсі?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Перш за все це обов’язкове дотримання інструкцій користування
             обладнанням, носіння захисного одягу та забезпечення безпеки всіх
             учасників навчального процесу. Детальнішу інформацію ти можеш знайти{" "}
             <a
               href={"#"}
-              className="hover:underline text-[#49B6FF]"
+              className="hover:underline text-[#436459]"
               target="_blank"
             >
               тут
@@ -75,12 +75,12 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-4">
           <AccordionTrigger>
-            <div className="text-left text-[16px] md:text-[18px]">
+            <div className="text-left text-[16px] md:text-[18px] text-[#54423B]">
               Чи можу я використовувати мейкерспейс для проведення власних
               заходів або майстер-класів?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Так, мейкерспейс може бути використаний для проведення заходів або
             майстер-класів. Для цього потрібно погодити деталі (час, мета та
             цілі заходу) з нашою адміністрацією.
@@ -89,11 +89,11 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-5">
           <AccordionTrigger>
-            <div className="text-left md:text-center md:text-[18px] text-[16px]">
+            <div className="text-left md:text-center md:text-[18px] text-[16px] text-[#54423B]">
               Які години роботи мейкерспейсу?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Мейкерспейс відкритий з понеділка по п’ятницю з 16:00 до 19:00 та в
             суботу з 10:00 до 18:00. Вихідні дні та святкові дні можуть
             відрізнятися. Слідкуй за актуальним графіком роботи в соціальних
@@ -103,11 +103,11 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-6">
           <AccordionTrigger>
-            <div className="text-left md:text-center md:text-[18px] text-[16px]">
-            Чи робимо вироби на замовлення?
+            <div className="text-left md:text-center md:text-[18px] text-[16px] text-[#54423B]">
+              Чи робимо вироби на замовлення?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Так, ми можемо дещо виконувати, проте це залежить від характеру
             замовлення та доступності обладнання й ресурсів на момент звернення.
             Тож, найкраще уточнити деталі заздалегідь, щоб ми могли допомогти
@@ -117,11 +117,11 @@ const QuestionMakerSpace = () => {
 
         <AccordionItem value="item-7">
           <AccordionTrigger>
-            <div className="text-left md:text-center md:text-[18px] text-[16px]">
+            <div className="text-left md:text-center md:text-[18px] text-[16px] text-[#54423B]">
               Чи надаєте ви витратні матеріали для роботи?
             </div>
           </AccordionTrigger>
-          <AccordionContent className="text-[18px] font-base">
+          <AccordionContent className="text-[18px] font-base text-[#54423B]">
             Витратні матеріали не входять у членський внесок резидента — їх
             потрібно приносити з собою або купувати окремо. Проте, якщо ти
             записуєшся на курси, усі необхідні матеріали для роботи вже включені

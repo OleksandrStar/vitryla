@@ -25,7 +25,7 @@ const AccessToEquipment = () => {
           initial={{ opacity: 0, transform: "translateX(100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-white font-bold text-[34px] md:text-[54px] z-10 text-center"
+          className="text-[#D6D6D6] font-bold text-[34px] md:text-[54px] z-10 text-center"
         >
           Доступ до обладнання
         </motion.div>
@@ -33,7 +33,7 @@ const AccessToEquipment = () => {
           initial={{ opacity: 0, transform: "translateX(-100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-white text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center leading-7"
+          className="text-[#D6D6D6] text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center leading-7"
         >
           Тут ти знайдеш всю необхідну інформацію про доступ до нашого
           обладнання. Ми пропонуємо сучасні інструменти для деревообробки. Із
@@ -43,7 +43,7 @@ const AccessToEquipment = () => {
               "https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit#heading=h.dyv4uv59g026"
             }
             target="_blank"
-            className="hover:underline text-[#49B6FF]"
+            className="hover:underline text-[#436459]"
           >
             тут
           </a>
@@ -52,13 +52,13 @@ const AccessToEquipment = () => {
           initial={{ opacity: 0, transform: "translateX(100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-white text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center"
+          className="text-[#D6D6D6] text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center"
         >
           <a
             className="rounded font-bold text-[18px] md:text-[24px]
         bg-none
-        border-white border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
-        hover:text-black hover:border-black"
+        border-[#D6D6D6] border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
+        hover:text-[#54423B] hover:border-[#54423B]"
             href="https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit#heading=h.dyv4uv59g026"
             target="_blank"
           >
@@ -69,7 +69,7 @@ const AccessToEquipment = () => {
           initial={{ opacity: 0, transform: "translateX(-100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-white text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center leading-7"
+          className="text-[#D6D6D6] text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center leading-7"
         >
           Перед тим, як використовувати обладнання, ти маєш переглянути наш
           договір про користування.{" "}
@@ -78,7 +78,7 @@ const AccessToEquipment = () => {
               "https://docs.google.com/document/d/1h6ihLuqniJsuY4ZE4on-2dgZ3rktg5cv/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
             }
             target="_blank"
-            className="hover:underline text-[#49B6FF]"
+            className="hover:underline text-[#436459]"
           >
             У документі{" "}
           </a>
@@ -87,13 +87,13 @@ const AccessToEquipment = () => {
           initial={{ opacity: 0, transform: "translateX(100px)" }}
           whileInView={{ opacity: 1, transform: "translateX(0)" }}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-white text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center"
+          className="text-[#D6D6D6] text-[14px] md:text-[18px] max-w-[300px] md:max-w-[500px] z-10 text-center"
         >
           <a
             className="rounded font-bold text-[18px] md:text-[24px]
         bg-none
-        border-white border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
-        hover:text-black hover:border-black"
+        border-[#D6D6D6] border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
+        hover:text-[#54423B] hover:border-[#54423B]"
             href="https://docs.google.com/document/d/1h6ihLuqniJsuY4ZE4on-2dgZ3rktg5cv/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
             target="_blank"
           >

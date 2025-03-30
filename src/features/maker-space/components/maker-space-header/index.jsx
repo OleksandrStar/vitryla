@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import LogoImg from "../../../../public/images/MakingSpace.svg";
+import LogoImg from "../../../../public/making-space/makerSpaceLogo.png";
 import Image from "next/image";
 import Link from "next/link";
 import HamburgerLogo from "../../../../public/images/hamburger.svg";
@@ -33,63 +33,68 @@ const MakerSpaceHeader = () => {
   };
 
   return (
-    <div className="bg-white w-full flex justify-center items-center fixed top-0 left-0 z-[100000] h-[84px]">
-      <div className="w-full max-w-[1360px] p-4 flex justify-between items-center">
-        <Link href="/maker-space">
-          <Image
-            src={LogoImg}
-            alt="logo"
-            width={200}
-            className="cursor-pointer h-[84px]"
-          />
-        </Link>
-        <div className="items-center gap-4 text-black md:text-sm xl:text-[17px] hidden lg:flex">
+    <div className="bg-[#436459] w-full flex justify-center items-center fixed top-0 left-0 z-[100000] h-[84px]">
+      <div className="w-full max-w-[1360px] p-4 pl-7 flex justify-between items-center">
+        <div className="m-2 px-3 rounded-xl bg-[#D6D6D6] relative w-[140px] h-[70px]">
+          <Link
+            href="/maker-space"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[140px] h-[140px]"
+          >
+            <Image
+              src={LogoImg}
+              alt="logo"
+              width={200}
+              className="cursor-pointer w-[140px] h-[140px]"
+            />
+          </Link>
+        </div>
+        <div className="items-center gap-4 text-[#D6D6D6] md:text-sm xl:text-[17px] hidden lg:flex">
           <a
             href="#aboutProject-MakerSpace"
             onClick={(e) => handleScroll(e, "aboutProject-MakerSpace")}
-            className={`nav-link ${activeAnchor === "aboutProject-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "aboutProject-MakerSpace" ? "active" : ""}`}
           >
             Про проєкт
           </a>
           <a
             href="#courses-MakerSpace"
             onClick={(e) => handleScroll(e, "courses-MakerSpace")}
-            className={`nav-link ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
           >
             Курси
           </a>
           <a
             href="#residency-MakerSpace"
             onClick={(e) => handleScroll(e, "residency-MakerSpace")}
-            className={`nav-link ${activeAnchor === "residency-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "residency-MakerSpace" ? "active" : ""}`}
           >
             Резидентство
           </a>
           <a
             href="#equipment-MakerSpace"
             onClick={(e) => handleScroll(e, "equipment-MakerSpace")}
-            className={`nav-link ${activeAnchor === "equipment-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "equipment-MakerSpace" ? "active" : ""}`}
           >
             Oбладнання
           </a>
           <a
             href="#makersCommunity-MakerSpace"
             onClick={(e) => handleScroll(e, "makersCommunity-MakerSpace")}
-            className={`nav-link ${activeAnchor === "makersCommunity-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "makersCommunity-MakerSpace" ? "active" : ""}`}
           >
             Наша спільнота
           </a>
           <a
             href="#questions-MakerSpace"
             onClick={(e) => handleScroll(e, "questions-MakerSpace")}
-            className={`nav-link ${activeAnchor === "questions-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "questions-MakerSpace" ? "active" : ""}`}
           >
             Часті запитання
           </a>
           <a
             href="#contacts-MakerSpace"
             onClick={(e) => handleScroll(e, "contacts-MakerSpace")}
-            className={`nav-link ${activeAnchor === "contacts-MakerSpace" ? "active" : ""}`}
+            className={`nav-link-maker ${activeAnchor === "contacts-MakerSpace" ? "active" : ""}`}
           >
             Наші контакти
           </a>
@@ -105,53 +110,53 @@ const MakerSpaceHeader = () => {
             alt="close"
             onClick={toggleHamburger}
           />
-          <div className="items-center gap-4 text-black md:text-sm xl:text-md flex flex-col mt-4">
+          <div className="items-center gap-4 text-[#D6D6D6] md:text-sm xl:text-md flex flex-col mt-4">
             <a
               href="#aboutProject-MakerSpace"
               onClick={(e) => handleScroll(e, "aboutProject-MakerSpace")}
-              className={`nav-link ${activeAnchor === "aboutProject-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "aboutProject-MakerSpace" ? "active" : ""}`}
             >
               Про проєкт
             </a>
             <a
               href="#courses-MakerSpace"
               onClick={(e) => handleScroll(e, "courses-MakerSpace")}
-              className={`nav-link ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "courses-MakerSpace" ? "active" : ""}`}
             >
               Курси
             </a>
             <a
               href="#residency-MakerSpace"
               onClick={(e) => handleScroll(e, "residency-MakerSpace")}
-              className={`nav-link ${activeAnchor === "residency-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "residency-MakerSpace" ? "active" : ""}`}
             >
               Резидентство
             </a>
             <a
               href="#equipment-MakerSpace"
               onClick={(e) => handleScroll(e, "equipment-MakerSpace")}
-              className={`nav-link ${activeAnchor === "equipment-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "equipment-MakerSpace" ? "active" : ""}`}
             >
               Обладнання
             </a>
             <a
               href="#makersCommunity-MakerSpace"
               onClick={(e) => handleScroll(e, "makersCommunity-MakerSpace")}
-              className={`nav-link ${activeAnchor === "makersCommunity-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "makersCommunity-MakerSpace" ? "active" : ""}`}
             >
               Наша спільнота
             </a>
             <a
               href="#questions-MakerSpace"
               onClick={(e) => handleScroll(e, "questions-MakerSpace")}
-              className={`nav-link ${activeAnchor === "questions-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "questions-MakerSpace" ? "active" : ""}`}
             >
               Часті запитання
             </a>
             <a
               href="#contacts-MakerSpace"
               onClick={(e) => handleScroll(e, "contacts-MakerSpace")}
-              className={`nav-link ${activeAnchor === "contacts-MakerSpace" ? "active" : ""}`}
+              className={`nav-link-maker ${activeAnchor === "contacts-MakerSpace" ? "active" : ""}`}
             >
               Наші контакти
             </a>

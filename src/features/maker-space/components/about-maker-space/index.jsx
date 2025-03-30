@@ -1,10 +1,10 @@
 import React from "react";
 import MakerSpace from "@/features/maker-space";
 import Image from "next/image";
-import WoodIcon from "../../../../public/making-space/icon/wood.svg";
-import SpaceIcon from "../../../../public/making-space/icon/space.svg";
-import CoursesIcon from "../../../../public/making-space/icon/coueses.svg";
-import MakerSpaceLogo from "../../../../public/images/MakingSpace.svg";
+import WoodIcon from "../../../../public/making-space/icon/1.png";
+import SpaceIcon from "../../../../public/making-space/icon/2.png";
+import CoursesIcon from "../../../../public/making-space/icon/3.png";
+import MakerSpaceLogo from "../../../../public/making-space/makerSpaceLogo.png";
 
 const AboutMakerSpace = () => {
   return (
@@ -12,7 +12,7 @@ const AboutMakerSpace = () => {
       id="aboutProject-MakerSpace"
       className="lg:container lg:px-0 px-10 mt-5"
     >
-      <h5 className="text-[30px] md:text-[35px] text-center lg:text-[55px]">
+      <h5 className="text-[#54423B] text-[30px] md:text-[35px] text-center lg:text-[55px]">
         Про проєкт
       </h5>
       <div className="flex">
@@ -25,7 +25,7 @@ const AboutMakerSpace = () => {
                 className="w-full h-full min-w-[60px] min-h-[60px]"
               />
             </div>
-            <p className="leading-8 lg:text-[16px] text-[14px]">
+            <p className="leading-8 lg:text-[16px] text-[14px] text-[#54423B]">
               «Вітрила Maker Space» — місце для роботи з деревом, справжня
               платформа для розвитку молодих інженерів, дизайнерів та новаторів.
               Тут ти зможеш не тільки опанувати нові технічні навички, але й
@@ -37,11 +37,11 @@ const AboutMakerSpace = () => {
               <Image
                 src={SpaceIcon}
                 alt={"WoodIcon"}
-                className="w-[140px] h-[140px] min-w-[60px] min-h-[60px]"
+                className="w-full h-full min-w-[60px] min-h-[60px]"
               />
             </div>
             <div className="flex items-center">
-              <p className="leading-8 lg:w-[calc(100%-200px)] lg:text-[16px] text-[14px]">
+              <p className="leading-8 lg:w-[calc(100%-200px)] lg:text-[16px] text-[14px] text-[#54423B]">
                 Простір оснащений сучасним обладнанням: фрезерним верстатом,
                 циркулярною пилою, електролобзиками, шліфувальними машинами,
                 токарними верстатами та багатьма іншими інструментами. Також є
@@ -62,10 +62,10 @@ const AboutMakerSpace = () => {
               <Image
                 src={CoursesIcon}
                 alt={"WoodIcon"}
-                className="w-[140px] h-[140px] min-w-[60px] min-h-[60px]"
+                className="w-full h-full min-w-[60px] min-h-[60px]"
               />
             </div>
-            <p className="leading-8 lg:text-[16px] text-[14px]">
+            <p className="leading-8 lg:text-[16px] text-[14px] text-[#54423B]">
               Окрім безоплатного доступу до обладнання, ти можеш брати участь у
               платних курсах із основ деревообробки, дизайну меблів та створення
               декоративних виробів. Кожен відвідувач зможе практично застосувати

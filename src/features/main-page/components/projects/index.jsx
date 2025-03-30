@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MakerSpaceImage from "../../../../public/images/MakingSpace.svg";
+import MakerSpaceImage from "../../../../public/making-space/makerSpaceLogo.png";
 import RobotsImage from "../../../../public/images/Robots.png";
 import Link from "next/link";
 

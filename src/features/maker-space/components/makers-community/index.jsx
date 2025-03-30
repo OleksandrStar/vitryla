@@ -47,16 +47,16 @@ const MakersCommunity = () => {
       className="mt-[20px] md:mt-[2.2rem] w-full overflow-hidden"
     >
       <div className="container text-center">
-        <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px]">
+        <h5 className="text-[25px] md:text-[35px] text-center lg:text-[55px] text-[#54423B]">
           Спільнота мейкерів
         </h5>
-        <p className="md:my-10 my-5 max-w-[700px] mx-auto xl:text-[18px] md:text-[16px] text-[14px] px-5 leading-7">
+        <p className="md:my-10 my-5 max-w-[700px] mx-auto xl:text-[18px] md:text-[16px] text-[14px] px-5 leading-7 text-[#54423B]">
           Якщо ти потрапив/ла сюди, значить бажаєш долучитися до спільноти
           мейкерів. Тут зібрана вся інформація про учасників, їхні проєкти.
           Познайомся з творчими людьми, які вже стали частиною нашого простору,
           і долучайся до{" "}
           <a
-            className="hover:underline text-[#49B6FF]"
+            className="hover:underline text-[#436459]"
             href={"#"}
             target="_blank"
           >
@@ -88,9 +88,9 @@ const MakersCommunity = () => {
             className="md:text-[18px] z-10 text-center min-w-[300px]"
           >
             <a
-              className="bg-white rounded font-bold text-[16px] md:text-[24px] text-black
-        border-black border-2 p-4 duration-500 hover:bg-black
-        hover:text-white"
+              className="bg-[#D6D6D6] rounded font-bold text-[16px] md:text-[24px] text-[#54423B]
+        border-[#54423B] border-2 p-4 duration-500 hover:bg-[#54423B]
+        hover:text-[#D6D6D6]"
               href={"#"}
               target="_blank"
             >

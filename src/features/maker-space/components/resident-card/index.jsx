@@ -10,7 +10,7 @@ const textList = [
 
 const ResidentCard = () => {
   return (
-    <div className="bg-[#003566] text-white pt-5 lg:px-0 px-10 pb-10">
+    <div className="bg-[#436459] text-[#D6D6D6] pt-5 lg:px-0 px-10 pb-10">
       <div className="mx-auto max-w-[1000px] !outline-0 mt-[20px] md:mt-[2.2rem]">
         <h5 className="text-[30px] md:text-[40px] text-center lg:text-[55px]">
           Що дає карта резидента?

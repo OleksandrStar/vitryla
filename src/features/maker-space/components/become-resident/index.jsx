@@ -17,7 +17,7 @@ const BecomeResident = () => {
         initial={{ opacity: 0, transform: "translateX(100px)" }}
         whileInView={{ opacity: 1, transform: "translateX(0)" }}
         viewport={{ once: true, amount: 0.7 }}
-        className="text-white text-[16px] md:text-[18px] z-10 text-center md:w-[500px] w-[300px] leading-8 italic"
+        className="text-[#D6D6D6] text-[16px] md:text-[18px] z-10 text-center md:w-[500px] w-[300px] leading-8 italic"
       >
         Приєднуйся до спільноти мейкерів, де інженери та новатори реалізовують
         свої проєкти й діляться досвідом у роботі з деревом.
@@ -26,13 +26,13 @@ const BecomeResident = () => {
         initial={{ opacity: 0, transform: "translateY(50px)" }}
         whileInView={{ opacity: 1, transform: "translateY(0)" }}
         viewport={{ once: true, amount: 0.1 }}
-        className="grid items-center md:gap-10 z-10 text-white max-w-[870px] px-4"
+        className="grid items-center md:gap-10 z-10 text-[#D6D6D6] max-w-[870px] px-4"
       >
         <a
           className="rounded font-bold text-[18px] md:text-[24px]
         bg-none
-        border-white border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
-        hover:text-black hover:border-black"
+        border-[#D6D6D6] border-2 p-4 duration-500 hover:bg-[rgba(255,255,255)]
+        hover:text-[#54423B] hover:border-[#54423B]"
           href="https://forms.gle/NXaMzasvw6k2Mo5K7"
           target="_blank"
         >
