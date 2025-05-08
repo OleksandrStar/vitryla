@@ -135,8 +135,7 @@ const CoursesMakerSpace = () => {
               </p>
               <p>
                 <span className="font-bold">Вартість:</span> 1 000
-                гривень/місяць. Якщо оплачувати відразу за 4 місяці, то буде 3
-                899 грн.
+                гривень/місяць.
               </p>
               <p>
                 <span className="font-bold">Кількість учнів у групі:</span> 8

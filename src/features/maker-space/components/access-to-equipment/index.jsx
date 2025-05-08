@@ -43,7 +43,7 @@ const AccessToEquipment = () => {
               "https://docs.google.com/document/d/11DGg5UAnJ9ztG_DSzlGzF2TTwR27EeTzKpvQIOtfgG4/edit#heading=h.dyv4uv59g026"
             }
             target="_blank"
-            className="hover:underline text-[#436459]"
+            className="text-[#D6D6D6] underline uppercase"
           >
             тут
           </a>
@@ -78,7 +78,7 @@ const AccessToEquipment = () => {
               "https://docs.google.com/document/d/1h6ihLuqniJsuY4ZE4on-2dgZ3rktg5cv/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
             }
             target="_blank"
-            className="hover:underline text-[#436459]"
+            className="text-[#D6D6D6] underline uppercase"
           >
             У документі{" "}
           </a>

@@ -32,7 +32,7 @@ export default function PoliciesOrganization() {
         <a
           className="text-xs md:text-base flex flex-col gap-4 text-center items-center transition-all duration-300 hover:scale-105 hover:bg-white/20 p-2 rounded-xl"
           target="_blank"
-          href="https://docs.google.com/document/d/17JTsoBXdG8s0pRw996qe9Nt_Qjs7vTgC/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
+          href="https://drive.google.com/file/d/150EQvQIABLjl8p23_hfcqNaYCT40U0Z5/view?usp=sharing"
         >
           <Image
             src={GendersIcon}
@@ -45,7 +45,7 @@ export default function PoliciesOrganization() {
         <a
           className="text-xs md:text-base flex flex-col gap-4 text-center items-center transition-all duration-300 hover:scale-105 hover:bg-white/20 p-2 rounded-xl"
           target="_blank"
-          href="https://docs.google.com/document/d/1M7Uig46i67X4X1Swea-ktkooWHOB5uVx/edit?usp=sharing&ouid=115300393774937759954&rtpof=true&sd=true"
+          href="https://drive.google.com/file/d/1docAIZfNQ6DqEFVaCXHJEd4EFDMIzMq8/view?usp=sharing"
         >
           <Image
             src={FamilyIcon}
@@ -56,7 +56,7 @@ export default function PoliciesOrganization() {
           <span>Щодо захисту дорослих та дітей</span>
         </a>
         <a
-          href="https://docs.google.com/document/d/1odbVy1qONuIth233j0aN0D4nQp9lhSZRDM_GudmBO4Q/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1CsGONrFr67shxNDJOjHGk53HVTtmevEr/view?usp=sharing"
           className="text-xs md:text-base flex flex-col gap-4 text-center items-center transition-all duration-300 hover:scale-105 hover:bg-white/20 p-2 rounded-xl"
           target="_blank"
         >
@@ -69,7 +69,7 @@ export default function PoliciesOrganization() {
           <span>Щодо закупівель</span>
         </a>
         <a
-          href="https://docs.google.com/document/d/1aWywzpWgwb58gOBt_oqRIgxN-DveSLtqMT5HbT53SbQ/edit?usp=sharing"
+          href="https://drive.google.com/file/d/18rlBl0KQyZ_Ps8l2GZuNBM-lbCYF4Rj0/view?usp=sharing"
           className="text-xs md:text-base flex flex-col gap-4 text-center items-center transition-all duration-300 hover:scale-105 hover:bg-white/20 p-2 rounded-xl"
           target="_blank"
         >
@@ -80,6 +80,21 @@ export default function PoliciesOrganization() {
             alt="policiesOrganization"
           />
           <span>Щодо протидії корупції</span>
+        </a>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, transform: "translateY(100px)" }}
+        whileInView={{ opacity: 1, transform: "translateX(0)" }}
+        viewport={{ once: true, amount: 0.7 }}
+      >
+        <a
+          target="_blank"
+          href="https://drive.google.com/drive/folders/1isupP4YxBsuliIjHV6cvyVMKADLILODw?usp=sharing"
+          className="rounded font-bold text-[18px] text-[white] md:text-[24px]  bg-none border-white border-2 p-4
+        duration-500 hover:bg-[rgba(255,255,255)] hover:text-black hover:border-black"
+        >
+          Інші політики
         </a>
       </motion.div>
     </div>
